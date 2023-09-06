@@ -1,0 +1,1 @@
+E:\.Net MAUI Development\PhoneWord\PhoneWord\PhoneWord.csproj;x64
