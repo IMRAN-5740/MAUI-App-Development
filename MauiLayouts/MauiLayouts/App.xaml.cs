@@ -1,4 +1,6 @@
-﻿namespace MauiLayouts
+﻿using MauiLayouts.Layouts.StackLayouts;
+
+namespace MauiLayouts
 {
     public partial class App : Application
     {
@@ -6,7 +8,9 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            var navigationPage = new NavigationPage(new StackLayoutDemo());
+           
+            MainPage = navigationPage;
         }
     }
 }

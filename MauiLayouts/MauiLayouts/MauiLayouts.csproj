@@ -52,4 +52,22 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Layouts\AbsoulateLayouts\" />
+	  <Folder Include="Layouts\GridLayouts\" />
+	  <Folder Include="Layouts\FlexLayouts\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Layouts\StackLayouts\HorizontalStackLayoutDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Layouts\StackLayouts\StackLayoutDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Layouts\StackLayouts\VerticalStackLayoutDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

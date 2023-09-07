@@ -4,15 +4,19 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-windows10.0.19041.0</ActiveDebugFramework>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="App.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="AppShell.xaml">
+    <MauiXaml Update="Layouts\StackLayouts\HorizontalStackLayoutDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MainPage.xaml">
+    <MauiXaml Update="Layouts\StackLayouts\StackLayoutDemo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Layouts\StackLayouts\VerticalStackLayoutDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">

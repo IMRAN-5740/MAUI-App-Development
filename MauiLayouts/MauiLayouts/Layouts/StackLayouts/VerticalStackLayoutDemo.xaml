@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.Layouts.StackLayouts.VerticalStackLayoutDemo"
+             BackgroundColor="White"
+             Title="Vertical StackLayout Demo">
+    <ScrollView Orientation="Vertical">
+        <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center">
+            <Label
+          Text="This is Demo Stack"
+          FontSize="20"
+          TextColor="White"
+          BackgroundColor="Gray"
+          HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+            <Label
+   Text="This is Demo Stack"
+   FontSize="20"
+   TextColor="White"
+   BackgroundColor="Gray"
+   HorizontalOptions="FillAndExpand"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+  
+</ContentPage>
