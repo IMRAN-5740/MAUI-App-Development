@@ -1,6 +1,6 @@
 namespace MauiPages.Pages.FlyoutPages;
 
-public partial class FlyoutPageDemo1 : ContentPage
+public partial class FlyoutPageDemo1 : FlyoutPage
 {
 	public FlyoutPageDemo1()
 	{
