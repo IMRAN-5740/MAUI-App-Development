@@ -1,6 +1,7 @@
 ﻿using MauiPages.Pages.ContentPages;
 using MauiPages.Pages.FlyoutPages;
 using MauiPages.Pages.NavigationPages;
+using MauiPages.Pages.TabbedPages;
 
 namespace MauiPages
 {
@@ -16,7 +17,11 @@ namespace MauiPages
             //navigationPage.BarTextColor = Colors.LightGray;
 
             //MainPage = navigationPage;
-            MainPage = new FlyoutPageDemo1();
+            // MainPage = new FlyoutPageDemo1();
+             var tabbedPage = new TabbedPageDemo1();
+            tabbedPage.BarBackgroundColor = Colors.White;
+            MainPage = tabbedPage;
+
         }
     }
 }
