@@ -6,4 +6,9 @@ public partial class NavigationPageDemo1 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void navigationPage2Button_Clicked(object sender, EventArgs e)
+    {
+		await Navigation.PushAsync(new NavigationPageDemo2());
+    }
 }

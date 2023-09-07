@@ -6,4 +6,9 @@ public partial class NavigationPageDemo3 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void navigationPageClose_Clicked(object sender, EventArgs e)
+    {
+		await Navigation.PopAsync();
+    }
 }

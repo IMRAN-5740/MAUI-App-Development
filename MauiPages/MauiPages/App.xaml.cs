@@ -1,4 +1,5 @@
 ﻿using MauiPages.Pages.ContentPages;
+using MauiPages.Pages.NavigationPages;
 
 namespace MauiPages
 {
@@ -8,7 +9,11 @@ namespace MauiPages
         {
             InitializeComponent();
 
-            MainPage = new ContentPageDemo1();
+            var navigationPage = new NavigationPage( new NavigationPageDemo1());
+            navigationPage.BarBackgroundColor = Colors.Firebrick;
+            navigationPage.BarTextColor = Colors.LightGray;
+            
+            MainPage = navigationPage;
         }
     }
 }

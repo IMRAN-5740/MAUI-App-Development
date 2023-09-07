@@ -2,11 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiPages.Pages.NavigationPages.NavigationPageDemo1"
+             BackgroundColor="SandyBrown"
              Title="NavigationPageDemo1">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             Text="Welcome to Navigation Page Demo1 !"
+             FontSize="20"
+             FontAttributes="Bold"
+             Margin="20"
+             TextColor="White"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+        <Button
+             x:Name="navigationPage2Button"
+             Text="Open to Navigation Page 2"
+             Clicked="navigationPage2Button_Clicked"
+             />
     </VerticalStackLayout>
 </ContentPage>
