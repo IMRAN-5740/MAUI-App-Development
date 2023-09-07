@@ -24,10 +24,10 @@
                 />
             <Button
                 x:Name="horizontalStackLayoutButton"
-                Text="Vertical Stack Layout Demo 2"
+                Text="Horizontal Stack Layout Demo 2"
                 FontAttributes="Bold"
                 FontSize="20"
-                TextColor="White"
+                TextColor="Maroon"
                 Clicked="horizontalStackLayoutButton_Clicked"    
                 />
         </StackLayout>

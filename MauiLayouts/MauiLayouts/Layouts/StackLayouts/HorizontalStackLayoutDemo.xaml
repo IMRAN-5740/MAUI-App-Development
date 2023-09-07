@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiLayouts.Layouts.StackLayouts.HorizontalStackLayoutDemo"
+             x:Class="MauiLayouts.Layouts.StackLayouts.HorizontalStackLayoutDemo" 
+             BackgroundColor="White"
              Title="Horizontal StackLayout Demo">
    
         <ScrollView Orientation="Horizontal">
-            <HorizontalStackLayout Padding="20" Spacing="10" VerticalOptions="Center">
-                                <Label
+            <HorizontalStackLayout Padding="20" Spacing="10" VerticalOptions="Center" >
+             <Label
                         Text="This is Demo Stack"
-                        FontSize="20"
                         TextColor="White"
                         BackgroundColor="Gray"
-                        HorizontalOptions="FillAndExpand"/>
+                        VerticalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+                
+                 TextColor="White"
+                 BackgroundColor="Gray"
+                 VerticalOptions="FillAndExpand"/>
+                                <Label
+                 Text="This is Demo Stack"
+                 
+                 TextColor="White"
+                 BackgroundColor="Gray"
+                 VerticalOptions="FillAndExpand"/>
+                                <Label
+                 Text="This is Demo Stack"
+                
+                 TextColor="White"
+                 BackgroundColor="Gray"
+                 VerticalOptions="FillAndExpand"/>
+                                <Label
+                 Text="This is Demo Stack"
+                
+                 TextColor="White"
+                 BackgroundColor="Gray"
+                 VerticalOptions="FillAndExpand"/>
+                                <Label
+                 Text="This is Demo Stack"
+                 
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+                 
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+                
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+              
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+                
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+              
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+                
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+                
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+               
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                                 <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
-                 TextColor="White"
-                 BackgroundColor="Gray"
-                 HorizontalOptions="FillAndExpand"/>
-                                <Label
-                 Text="This is Demo Stack"
-                 FontSize="20"
-                 TextColor="White"
-                 BackgroundColor="Gray"
-                 HorizontalOptions="FillAndExpand"/>
-                                <Label
-                 Text="This is Demo Stack"
-                 FontSize="20"
-                 TextColor="White"
-                 BackgroundColor="Gray"
-                 HorizontalOptions="FillAndExpand"/>
-                                <Label
-                 Text="This is Demo Stack"
-                 FontSize="20"
-                 TextColor="White"
-                 BackgroundColor="Gray"
-                 HorizontalOptions="FillAndExpand"/>
-                                <Label
-                 Text="This is Demo Stack"
-                 FontSize="20"
+                 
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
                             <Label
                  Text="This is Demo Stack"
-                 FontSize="20"
+                
                  TextColor="White"
                  BackgroundColor="Gray"
                  HorizontalOptions="FillAndExpand"/>
