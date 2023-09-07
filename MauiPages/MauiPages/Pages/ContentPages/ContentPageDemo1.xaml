@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiPages.Pages.ContentPages.ContentPageDemo1"
+             BackgroundColor="SandyBrown"
+             Title="ContentPageDemo1">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to Content Page Demo1 !"
+            FontSize="20"
+            FontAttributes="Bold"
+            Margin="20"
+            TextColor="White"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            x:Name="contentPage2Button"
+            Text="Open to Content Page 2"
+            Clicked="contentPage2Button_Clicked"
+            />
+    </VerticalStackLayout>
+</ContentPage>

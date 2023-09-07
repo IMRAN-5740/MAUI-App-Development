@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = MauiPages
+build_property.ProjectDir = E:\.Net MAUI Development\MauiPages\MauiPages\
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/ContentPages/ContentPageDemo1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.ContentPages.ContentPageDemo1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ContentPages\ContentPageDemo1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ContentPages\ContentPageDemo1.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/ContentPages/ContentPageDemo2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.ContentPages.ContentPageDemo2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ContentPages\ContentPageDemo2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ContentPages\ContentPageDemo2.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/ContentPages/ContentPageDemo3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.ContentPages.ContentPageDemo3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ContentPages\ContentPageDemo3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ContentPages\ContentPageDemo3.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/FlyoutPages/FlyoutPageDemo1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.FlyoutPages.FlyoutPageDemo1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutPages\FlyoutPageDemo1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutPages\FlyoutPageDemo1.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/FlyoutPages/FlyoutPageDemo2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.FlyoutPages.FlyoutPageDemo2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutPages\FlyoutPageDemo2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutPages\FlyoutPageDemo2.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/FlyoutPages/FlyoutPageDemo3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.FlyoutPages.FlyoutPageDemo3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutPages\FlyoutPageDemo3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutPages\FlyoutPageDemo3.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/NavigationPages/NavigationPageDemo1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.NavigationPages.NavigationPageDemo1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NavigationPages\NavigationPageDemo1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NavigationPages\NavigationPageDemo1.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/NavigationPages/NavigationPageDemo2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.NavigationPages.NavigationPageDemo2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NavigationPages\NavigationPageDemo2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NavigationPages\NavigationPageDemo2.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/NavigationPages/NavigationPageDemo3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.NavigationPages.NavigationPageDemo3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NavigationPages\NavigationPageDemo3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NavigationPages\NavigationPageDemo3.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/TabbedPages/TabbedPageDemo1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.TabbedPages.TabbedPageDemo1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TabbedPages\TabbedPageDemo1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TabbedPages\TabbedPageDemo1.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/TabbedPages/TabbedPageDemo2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.TabbedPages.TabbedPageDemo2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TabbedPages\TabbedPageDemo2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TabbedPages\TabbedPageDemo2.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Pages/TabbedPages/TabbedPageDemo3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Pages.TabbedPages.TabbedPageDemo3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TabbedPages\TabbedPageDemo3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TabbedPages\TabbedPageDemo3.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
