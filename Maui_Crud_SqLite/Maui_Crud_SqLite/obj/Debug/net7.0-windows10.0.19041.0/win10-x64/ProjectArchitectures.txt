@@ -1,0 +1,1 @@
+E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\Maui_Crud_SqLite.csproj;x64
