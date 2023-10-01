@@ -33,9 +33,15 @@ namespace MauiPages
 
 
             //Layouts
-             
+
             //StackLayout
-            MainPage=new StackLayoutDemo();
+            MainPage = new StackLayoutDemo();
+
+            //Types of Layout
+           //MainPage = new Layouts.TypesOfLayout.StackLayoutDemo();
+           // MainPage = new Layouts.TypesOfLayout.HorizontalStackLayout();
+
+
 
 
         }

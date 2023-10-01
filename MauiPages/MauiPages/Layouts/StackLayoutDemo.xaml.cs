@@ -7,4 +7,14 @@ public partial class StackLayoutDemo : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void verticalSL_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushModalAsync(new TypesOfLayout.VerticalStackLayout());
+    }
+
+    private async void horizontalSL_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushModalAsync(new TypesOfLayout.HorizontalStackLayout());
+    }
 }

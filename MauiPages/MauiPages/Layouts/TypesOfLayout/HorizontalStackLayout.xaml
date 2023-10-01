@@ -2,11 +2,43 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiPages.Layouts.TypesOfLayout.HorizontalStackLayout"
-             Title="HorizontalStackLayout">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Horizontal Stack Layout">
+    <ScrollView Orientation="Horizontal">
+        <HorizontalStackLayout Padding="20" Spacing="10">
+            <Button
+       x:Name="closeVSL"
+       Text="Back to StackLayout Page"
+       FontAttributes="Bold"
+       FontSize="20"
+       TextColor="White"
+         BackgroundColor="Gray"
+      Clicked="closeVSL_Clicked"/>
+            <Label  Text="Horizontal Stack Layout " TextColor="White" BackgroundColor="Black" HorizontalOptions="Center"  />
+
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+            <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />
+
+
+        </HorizontalStackLayout>
+    </ScrollView>
+   
 </ContentPage>

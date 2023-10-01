@@ -6,4 +6,9 @@ public partial class HorizontalStackLayout : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void closeVSL_Clicked(object sender, EventArgs e)
+    {
+		await Navigation.PopModalAsync();
+    }
 }

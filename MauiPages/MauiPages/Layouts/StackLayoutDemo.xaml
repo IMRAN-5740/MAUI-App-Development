@@ -4,8 +4,8 @@
              x:Class="MauiPages.Layouts.StackLayoutDemo"
              Title="Stack Layout"
              BackgroundColor="White">
-    <ScrollView >
-        <StackLayout Padding="20" Spacing="10" Orientation="Vertical" VerticalOptions="End">
+    <ScrollView Orientation="Vertical" >
+        <StackLayout Padding="20" Spacing="10" Orientation="Vertical" VerticalOptions="Center">
 
             <Label
                 Text=".Net Maui Layout Pages"
@@ -15,10 +15,18 @@
                 TextColor="Red"
                 HorizontalOptions="Center"/>   
 
-            <Button Text="Button 01"/>
-            <Button Text="Button 02"/>
-            <Button Text="Button 03"/>
-            <Button Text="Button 03"/>
+            <Button 
+                x:Name="verticalSL"
+                Text="Go to Vertical Stack Layout"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="verticalSL_Clicked"/>
+            <Button 
+                x:Name="horizontalSL"
+                Text="Go to Horizontal Stack Layout"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="horizontalSL_Clicked"/>
 
         </StackLayout>
     </ScrollView>
