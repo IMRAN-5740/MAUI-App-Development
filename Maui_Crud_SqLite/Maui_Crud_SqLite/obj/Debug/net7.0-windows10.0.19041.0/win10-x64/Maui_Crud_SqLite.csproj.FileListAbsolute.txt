@@ -322,3 +322,10 @@ E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\obj\Debug\net7.0-wind
 E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
+E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll

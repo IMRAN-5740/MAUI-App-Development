@@ -11,16 +11,16 @@ namespace MauiPages
         {
             InitializeComponent();
 
-            // MainPage = new ContentPageDemo1();
-            //var navigationPage = new NavigationPage( new NavigationPageDemo1());
-            //navigationPage.BarBackgroundColor = Colors.Firebrick;
-            //navigationPage.BarTextColor = Colors.LightGray;
+            //MainPage = new ContentPageDemo1();
+            var navigationPage = new NavigationPage(new NavigationPageDemo1());
+            navigationPage.BarBackgroundColor = Colors.Firebrick;
+            navigationPage.BarTextColor = Colors.LightGray;
 
             //MainPage = navigationPage;
             // MainPage = new FlyoutPageDemo1();
-             var tabbedPage = new TabbedPageDemo1();
-            tabbedPage.BarBackgroundColor = Colors.White;
-            MainPage = tabbedPage;
+            // var tabbedPage = new TabbedPageDemo1();
+            //tabbedPage.BarBackgroundColor = Colors.White;
+            //MainPage = tabbedPage;
 
         }
     }

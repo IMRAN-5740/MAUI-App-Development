@@ -6,21 +6,21 @@
              Title="ContentPageDemo2">
     <VerticalStackLayout>
         <Label 
-     Text="Welcome to Content Page Demo2 !"
-     FontSize="20"
-     FontAttributes="Bold"
-     Margin="20"
-     TextColor="Black"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center" />
+             Text="Welcome to Content Page Demo2 !"
+             FontSize="20"
+             FontAttributes="Bold"
+             Margin="20"
+             TextColor="Black"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
         <Button
-     x:Name="contentPage3Demo"
-     Text="Open Content Page 3"
-     Clicked="contentPage3Demo_Clicked"/>
-   
+                 x:Name="contentPage3Demo"
+                 Text="Open Content Page 3"
+                 Clicked="contentPage3Demo_Clicked"/>
+
         <Button
-    x:Name="contentPageClose"
-    Text="Close Content Page 2"
-    Clicked="contentPageClose_Clicked"/>
+            x:Name="contentPageClose"
+            Text="Close Content Page 2"
+            Clicked="contentPageClose_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -724,6 +724,9 @@
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\administration.scale-100.png">
+      <PackagePath>administration.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -876,6 +879,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faculty.scale-100.png">
+      <PackagePath>faculty.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faculty1.scale-100.png">
+      <PackagePath>faculty1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\others.scale-100.png">
+      <PackagePath>others.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

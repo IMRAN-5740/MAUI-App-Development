@@ -322,3 +322,8 @@ E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.
 E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\administration.scale-100.png
+E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faculty.scale-100.png
+E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faculty1.scale-100.png
+E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\others.scale-100.png

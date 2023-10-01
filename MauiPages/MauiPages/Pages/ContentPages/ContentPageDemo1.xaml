@@ -6,7 +6,7 @@
              Title="ContentPageDemo1">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to Content Page Demo1 !"
+            Text="Welcome to Content Page Demo 1 !"
             FontSize="20"
             FontAttributes="Bold"
             Margin="20"

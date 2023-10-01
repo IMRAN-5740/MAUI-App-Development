@@ -30,29 +30,29 @@
     <AppXManifest Include="E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-18T06:35:24.129</Modified>
+      <Modified>2023-09-18T06:42:47.693</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-18T06:35:23.723</Modified>
+      <Modified>2023-09-18T06:42:47.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Maui_Crud_SqLite.runtimeconfig.json">
       <PackagePath>Maui_Crud_SqLite.runtimeconfig.json</PackagePath>
-      <Modified>2023-09-18T06:35:23.270</Modified>
+      <Modified>2023-09-18T06:42:47.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Maui_Crud_SqLite.dll">
       <PackagePath>Maui_Crud_SqLite.dll</PackagePath>
-      <Modified>2023-09-18T06:35:18.849</Modified>
+      <Modified>2023-09-18T06:42:44.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Maui_Crud_SqLite.exe</PackagePath>
-      <Modified>2023-09-18T06:35:18.881</Modified>
+      <Modified>2023-09-18T06:42:44.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\Maui_Crud_SqLite\Maui_Crud_SqLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Maui_Crud_SqLite.deps.json">
       <PackagePath>Maui_Crud_SqLite.deps.json</PackagePath>
-      <Modified>2023-09-18T06:35:23.036</Modified>
+      <Modified>2023-09-18T06:42:46.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -810,6 +810,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-06-09T20:10:26.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\communitytoolkit.mvvm\8.2.1\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-07-05T18:52:50.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-10-18T16:15:22.000</Modified>
@@ -914,6 +918,26 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2021-09-02T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-09-03T17:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+      <Modified>2020-09-03T17:13:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2020-09-03T17:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.0.4\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+      <Modified>2020-09-03T17:13:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2023-05-31T20:12:36.000</Modified>
@@ -921,6 +945,10 @@
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-08-17T14:38:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
