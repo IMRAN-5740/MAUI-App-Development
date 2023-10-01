@@ -9,7 +9,7 @@ public partial class VerticalStackLayout : ContentPage
 
     private  async void closeVSL_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PopModalAsync();
+        await Navigation.PopAsync();
     }
 
     

@@ -13,6 +13,9 @@
     <MauiXaml Update="App.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Layouts\GridLayoutDemo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Layouts\StackLayoutDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

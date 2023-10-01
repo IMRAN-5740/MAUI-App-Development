@@ -28,6 +28,14 @@
                 FontSize="20"
                 Clicked="horizontalSL_Clicked"/>
 
+            <Button 
+                 x:Name="gridLayout"
+                 Text="Go to Grid Layout"
+                 FontAttributes="Bold"
+                 FontSize="20"
+                Clicked="gridLayout_Clicked"
+               />       
+
         </StackLayout>
     </ScrollView>
    

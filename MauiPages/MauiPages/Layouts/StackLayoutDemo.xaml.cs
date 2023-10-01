@@ -10,11 +10,16 @@ public partial class StackLayoutDemo : ContentPage
 
     private async void verticalSL_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushModalAsync(new TypesOfLayout.VerticalStackLayout());
+        await Navigation.PushAsync(new TypesOfLayout.VerticalStackLayout());
     }
 
     private async void horizontalSL_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushModalAsync(new TypesOfLayout.HorizontalStackLayout());
+        await Navigation.PushAsync(new TypesOfLayout.HorizontalStackLayout());
+    }
+
+    private async void gridLayout_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new GridLayoutDemo());
     }
 }

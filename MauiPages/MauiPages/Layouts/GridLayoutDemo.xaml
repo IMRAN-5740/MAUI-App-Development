@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiPages.Layouts.GridLayoutDemo"
+             Title="Grid Layout Demo"
+             BackgroundColor="White">
+    <Grid RowSpacing="10" ColumnSpacing="10">
+        <Grid.RowDefinitions>
+            
+                <RowDefinition/>
+                <RowDefinition  />
+                <RowDefinition/>
+                <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+
+        <Label Text="MAUI! 1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="0" Grid.Column="0"/>
+        <Label Text="MAUI! 2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="0" Grid.Column="1"/>
+        <Label Text="MAUI! 3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="0" Grid.Column="2"/>
+        <Label Text="MAUI! 4" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="0" Grid.Column="3"/>
+      
+        <Label Text="MAUI! 1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="1" Grid.Column="0"/>
+        <Label Text="MAUI! 2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="1" Grid.Column="1"/>
+        <Label Text="MAUI! 3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="1" Grid.Column="2"/>
+        <Label Text="MAUI! 4" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="1" Grid.Column="3"/>
+        
+        <Label Text="MAUI! 1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="2" Grid.Column="0"/>
+        <Label Text="MAUI! 2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="2" Grid.Column="1"/>
+        <Label Text="MAUI! 3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="2" Grid.Column="2"/>
+        <Label Text="MAUI! 4" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="2" Grid.Column="3"/>
+
+        <Label Text="MAUI! 1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="3" Grid.Column="0"/>
+        <Label Text="MAUI! 2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="3" Grid.Column="1"/>
+        <Label Text="MAUI! 3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="3" Grid.Column="2"/>
+        <Label Text="MAUI! 4" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Grid.Row="3" Grid.Column="3"/>
+    </Grid>
+    <!--<Button
+        x:Name="closeGrid"
+        FontAttributes="Bold"
+        FontSize="20"
+        TextColor="Red" 
+        Text="Close Grid View"
+        Clicked="closeGrid_Clicked"/>-->
+</ContentPage>
