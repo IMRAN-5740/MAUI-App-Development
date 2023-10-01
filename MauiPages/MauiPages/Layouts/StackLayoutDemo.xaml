@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiPages.Layouts.StackLayoutDemo"
+             Title="Stack Layout"
+             BackgroundColor="White">
+    <ScrollView >
+        <StackLayout Padding="20" Spacing="10" Orientation="Vertical" VerticalOptions="End">
+
+            <Label
+                Text=".Net Maui Layout Pages"
+                Margin="20"
+                FontAttributes="Bold"
+                FontSize="20"
+                TextColor="Red"
+                HorizontalOptions="Center"/>   
+
+            <Button Text="Button 01"/>
+            <Button Text="Button 02"/>
+            <Button Text="Button 03"/>
+            <Button Text="Button 03"/>
+
+        </StackLayout>
+    </ScrollView>
+   
+</ContentPage>

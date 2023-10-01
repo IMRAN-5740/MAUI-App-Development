@@ -13,6 +13,15 @@
     <MauiXaml Update="App.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Layouts\StackLayoutDemo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Layouts\TypesOfLayout\HorizontalStackLayout.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Layouts\TypesOfLayout\VerticalStackLayout.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\ContentPages\ContentPageDemo1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

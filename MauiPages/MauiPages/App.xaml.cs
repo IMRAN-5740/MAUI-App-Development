@@ -1,4 +1,5 @@
-﻿using MauiPages.Pages.ContentPages;
+﻿using MauiPages.Layouts;
+using MauiPages.Pages.ContentPages;
 using MauiPages.Pages.FlyoutPages;
 using MauiPages.Pages.NavigationPages;
 using MauiPages.Pages.TabbedPages;
@@ -11,6 +12,7 @@ namespace MauiPages
         {
             InitializeComponent();
 
+            //Pages 
             //Content Page
             //MainPage = new ContentPageDemo1();
 
@@ -24,9 +26,17 @@ namespace MauiPages
             // MainPage = new FlyoutPageDemo();
 
             //Tabbed Page
-            var tabbedPage = new TabbedPageDemo();
-            tabbedPage.BarBackgroundColor = Colors.White;
-            MainPage = tabbedPage;
+            //var tabbedPage = new TabbedPageDemo();
+            //tabbedPage.BarBackgroundColor = Colors.White;
+            //MainPage = tabbedPage;
+
+
+
+            //Layouts
+             
+            //StackLayout
+            MainPage=new StackLayoutDemo();
+
 
         }
     }
