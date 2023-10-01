@@ -11,13 +11,19 @@ namespace MauiPages
         {
             InitializeComponent();
 
+            //Content Page
             //MainPage = new ContentPageDemo1();
+
+            //Navigation Page
             var navigationPage = new NavigationPage(new NavigationPageDemo1());
             navigationPage.BarBackgroundColor = Colors.Firebrick;
             navigationPage.BarTextColor = Colors.LightGray;
-
-            //MainPage = navigationPage;
+            MainPage = navigationPage;
+            
+            //FlyOut Page
             // MainPage = new FlyoutPageDemo1();
+
+            //Tabbed Page
             // var tabbedPage = new TabbedPageDemo1();
             //tabbedPage.BarBackgroundColor = Colors.White;
             //MainPage = tabbedPage;

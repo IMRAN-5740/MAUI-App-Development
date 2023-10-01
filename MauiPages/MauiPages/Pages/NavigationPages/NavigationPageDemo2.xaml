@@ -3,24 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiPages.Pages.NavigationPages.NavigationPageDemo2"
              BackgroundColor="White"
-             Title="NavigationPageDemo2">
+             Title="Navigation Page Demo 2">
     <VerticalStackLayout>
         <Label 
-     Text="Welcome to Navigation Page Demo2 !"
-     FontSize="20"
-     FontAttributes="Bold"
-     Margin="20"
-     TextColor="Black"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center" />
+             Text="Welcome to Navigation Page Demo2 !"
+             FontSize="20"
+             FontAttributes="Bold"
+             Margin="20"
+             TextColor="Black"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
         <Button
-         x:Name="navigationPage3Button"
-         Text="Open Navigation Page 3"
-         Clicked="navigationPage3Button_Clicked"/>
+             x:Name="navigationPage3Button"
+             Text="Open Navigation Page 3"
+             Clicked="navigationPage3Button_Clicked"/>
 
         <Button
-        x:Name="navigationPageClose"
-        Text="Close Navigation Page 2"
-        Clicked="navigationPageClose_Clicked"/>
+             x:Name="navigationPageClose"
+             Text="Close Navigation Page 2"
+             Clicked="navigationPageClose_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

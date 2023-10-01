@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiPages.Pages.NavigationPages.NavigationPageDemo1"
              BackgroundColor="SandyBrown"
-             Title="NavigationPageDemo1">
+             Title="Navigation Page Demo 1">
     <VerticalStackLayout>
         <Label 
              Text="Welcome to Navigation Page Demo1 !"
