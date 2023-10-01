@@ -61,6 +61,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\FlyoutPages\FlyoutPageDemo.xaml.cs">
+	    <DependentUpon>FlyoutPageDemo.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\TabbedPages\TabbedPageDemo.xaml.cs">
+	    <DependentUpon>TabbedPageDemo.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Pages\ContentPages\ContentPageDemo1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -70,13 +79,7 @@
 	  <MauiXaml Update="Pages\ContentPages\ContentPageDemo3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\FlyoutPages\FlyoutPageDemo1.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\FlyoutPages\FlyoutPageDemo2.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\FlyoutPages\FlyoutPageDemo3.xaml">
+	  <MauiXaml Update="Pages\FlyoutPages\FlyoutPageDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\NavigationPages\NavigationPageDemo1.xaml">
@@ -88,13 +91,7 @@
 	  <MauiXaml Update="Pages\NavigationPages\NavigationPageDemo3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\TabbedPages\TabbedPageDemo1.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\TabbedPages\TabbedPageDemo2.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\TabbedPages\TabbedPageDemo3.xaml">
+	  <MauiXaml Update="Pages\TabbedPages\TabbedPageDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

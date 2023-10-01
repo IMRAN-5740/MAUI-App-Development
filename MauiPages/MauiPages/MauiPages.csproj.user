@@ -22,13 +22,7 @@
     <MauiXaml Update="Pages\ContentPages\ContentPageDemo3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\FlyoutPages\FlyoutPageDemo1.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\FlyoutPages\FlyoutPageDemo2.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\FlyoutPages\FlyoutPageDemo3.xaml">
+    <MauiXaml Update="Pages\FlyoutPages\FlyoutPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\NavigationPages\NavigationPageDemo1.xaml">
@@ -40,13 +34,7 @@
     <MauiXaml Update="Pages\NavigationPages\NavigationPageDemo3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\TabbedPages\TabbedPageDemo1.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\TabbedPages\TabbedPageDemo2.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\TabbedPages\TabbedPageDemo3.xaml">
+    <MauiXaml Update="Pages\TabbedPages\TabbedPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">

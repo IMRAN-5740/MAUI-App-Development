@@ -15,18 +15,18 @@ namespace MauiPages
             //MainPage = new ContentPageDemo1();
 
             //Navigation Page
-            var navigationPage = new NavigationPage(new NavigationPageDemo1());
-            navigationPage.BarBackgroundColor = Colors.Firebrick;
-            navigationPage.BarTextColor = Colors.LightGray;
-            MainPage = navigationPage;
-            
+            //var navigationPage = new NavigationPage(new NavigationPageDemo1());
+            //navigationPage.BarBackgroundColor = Colors.Firebrick;
+            //navigationPage.BarTextColor = Colors.LightGray;
+            //MainPage = navigationPage;
+
             //FlyOut Page
-            // MainPage = new FlyoutPageDemo1();
+            // MainPage = new FlyoutPageDemo();
 
             //Tabbed Page
-            // var tabbedPage = new TabbedPageDemo1();
-            //tabbedPage.BarBackgroundColor = Colors.White;
-            //MainPage = tabbedPage;
+            var tabbedPage = new TabbedPageDemo();
+            tabbedPage.BarBackgroundColor = Colors.White;
+            MainPage = tabbedPage;
 
         }
     }
