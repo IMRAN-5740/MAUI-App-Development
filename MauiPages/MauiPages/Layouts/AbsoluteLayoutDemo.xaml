@@ -32,7 +32,7 @@
         <Button
             Text="Width Proportional"  
             AbsoluteLayout.LayoutFlags="WidthProportional"
-            AbsoluteLayout.LayoutBounds="100,250,.4,50"
+            AbsoluteLayout.LayoutBounds="100,280,.4,50"
             BackgroundColor="Green"
             TextColor="White"
             />
@@ -59,6 +59,13 @@
           BackgroundColor="DeepSkyBlue"
           TextColor="White"
           />
+        <Button
+           Text="Position Proportional"  
+           AbsoluteLayout.LayoutFlags="PositionProportional" 
+           AbsoluteLayout.LayoutBounds=".2,.5,300,56"
+           BackgroundColor="Orange"
+           TextColor="White"
+           />
         <Button
            Text="All"  
            AbsoluteLayout.LayoutFlags="All" 

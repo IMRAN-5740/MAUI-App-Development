@@ -40,7 +40,6 @@
                 Text="Go to Absolute Layout"
                 FontAttributes="Bold"
                 FontSize="20"
-                TextColor="White"
                 Clicked="absoluteLayout_Clicked"      
                 />
 

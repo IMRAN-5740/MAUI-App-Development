@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-03T18:20:38.198</Modified>
+      <Modified>2023-10-03T19:05:48.862</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-03T18:11:52.464</Modified>
+      <Modified>2023-10-03T19:05:48.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiPages.runtimeconfig.json">
       <PackagePath>MauiPages.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiPages.dll">
       <PackagePath>MauiPages.dll</PackagePath>
-      <Modified>2023-10-03T18:20:36.154</Modified>
+      <Modified>2023-10-03T19:05:45.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiPages.exe</PackagePath>
-      <Modified>2023-10-03T18:20:36.166</Modified>
+      <Modified>2023-10-03T19:05:45.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiPages.deps.json">
       <PackagePath>MauiPages.deps.json</PackagePath>
-      <Modified>2023-10-03T18:11:51.902</Modified>
+      <Modified>2023-10-03T19:05:48.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
