@@ -22,4 +22,9 @@ public partial class StackLayoutDemo : ContentPage
     {
         await Navigation.PushAsync(new GridLayoutDemo());
     }
+
+    private  async void absoluteLayout_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new AbsoluteLayoutDemo());
+    }
 }

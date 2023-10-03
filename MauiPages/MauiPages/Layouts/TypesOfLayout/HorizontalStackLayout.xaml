@@ -6,13 +6,14 @@
     <ScrollView Orientation="Horizontal">
         <HorizontalStackLayout Padding="20" Spacing="10">
             <Button
-       x:Name="closeVSL"
-       Text="Back to StackLayout Page"
-       FontAttributes="Bold"
-       FontSize="20"
-       TextColor="White"
-         BackgroundColor="Gray"
-      Clicked="closeVSL_Clicked"/>
+                     x:Name="closeVSL"
+                     Text="Back to StackLayout Page"
+                     FontAttributes="Bold"
+                     FontSize="20"
+                     TextColor="White"
+                    BackgroundColor="Green"
+                    Clicked="closeVSL_Clicked"
+                />
             <Label  Text="Horizontal Stack Layout " TextColor="White" BackgroundColor="Black" HorizontalOptions="Center"  />
 
             <Label  Text="VSL Button 1" TextColor="White" BackgroundColor="Gray" VerticalOptions="FillAndExpand" />

@@ -34,7 +34,15 @@
                  FontAttributes="Bold"
                  FontSize="20"
                 Clicked="gridLayout_Clicked"
-               />       
+               />
+            <Button
+                x:Name="absoluteLayout"
+                Text="Go to Absolute Layout"
+                FontAttributes="Bold"
+                FontSize="20"
+                TextColor="White"
+                Clicked="absoluteLayout_Clicked"      
+                />
 
         </StackLayout>
     </ScrollView>

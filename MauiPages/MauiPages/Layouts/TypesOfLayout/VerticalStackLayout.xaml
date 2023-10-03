@@ -12,7 +12,7 @@
                 FontAttributes="Bold"
                 FontSize="20"
                 TextColor="White"
-                 BackgroundColor="Gray"
+                 BackgroundColor="Green"
                 Clicked="closeVSL_Clicked"/>
             <Label  Text="Vertical Stack Layout " TextColor="White" BackgroundColor="Black" HorizontalOptions="Center" />
 
