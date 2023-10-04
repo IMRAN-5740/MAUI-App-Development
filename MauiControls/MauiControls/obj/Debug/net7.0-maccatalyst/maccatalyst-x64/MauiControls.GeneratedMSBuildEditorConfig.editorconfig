@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiControls
+build_property.ProjectDir = E:\.Net MAUI Development\MauiControls\MauiControls\
+
+[E:/.Net MAUI Development/MauiControls/MauiControls/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/.Net MAUI Development/MauiControls/MauiControls/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[E:/.Net MAUI Development/MauiControls/MauiControls/Pages/MainControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.MainControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainControls.xaml
+
+[E:/.Net MAUI Development/MauiControls/MauiControls/Pages/TypeOfControls/ActionControl/ActionControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.TypeOfControls.ActionControl.ActionControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TypeOfControls\ActionControl\ActionControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TypeOfControls\ActionControl\ActionControls.xaml
+
+[E:/.Net MAUI Development/MauiControls/MauiControls/Pages/TypeOfControls/CommonControl/CommonControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.TypeOfControls.CommonControl.CommonControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TypeOfControls\CommonControl\CommonControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TypeOfControls\CommonControl\CommonControls.xaml
+
+[E:/.Net MAUI Development/MauiControls/MauiControls/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/.Net MAUI Development/MauiControls/MauiControls/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

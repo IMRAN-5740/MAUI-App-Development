@@ -1,0 +1,1 @@
+E:\.Net MAUI Development\MauiControls\MauiControls\MauiControls.csproj;x64
