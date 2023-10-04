@@ -24,6 +24,8 @@
         <Frame>
             <SearchBar
                 x:Name="searchButton"
+                TextColor="Black"
+                BackgroundColor="LightSkyBlue"
                SearchButtonPressed="searchButton_SearchButtonPressed"/>
         </Frame>
     </VerticalStackLayout>
