@@ -2,8 +2,20 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiPages.Layouts.StackLayOut.StackLayoutDemo"
-             Title="Stack Layout"
              BackgroundColor="White">
+
+    <NavigationPage.TitleView>
+        <Label
+         x:Name="pageTitleView"
+         HorizontalTextAlignment="Center"
+         Padding="10"
+         Text="Stack LayOut"
+         FontSize="20"
+         FontAttributes="Bold"
+         TextColor="White"/>
+    </NavigationPage.TitleView>
+    
+    
     <ScrollView Orientation="Vertical" >
         <StackLayout Padding="20" Spacing="10" Orientation="Vertical" VerticalOptions="Center">
 

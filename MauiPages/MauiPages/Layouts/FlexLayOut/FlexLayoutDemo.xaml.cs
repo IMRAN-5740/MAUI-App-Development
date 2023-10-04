@@ -6,4 +6,9 @@ public partial class FlexLayoutDemo : ContentPage
 	{
 		InitializeComponent();
 	}
+    protected override void OnSizeAllocated(double width, double height)
+    {
+        base.OnSizeAllocated(width, height);
+        pageTitleView.WidthRequest = width;
+    }
 }

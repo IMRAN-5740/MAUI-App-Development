@@ -2,8 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiPages.Layouts.FlexLayOut.FlexLayoutDemo"
-             Title="Flex Layout Demo"
              >
+    <NavigationPage.TitleView>
+        <Label
+            x:Name="pageTitleView"
+            HorizontalTextAlignment="Center"
+            Padding="10"
+            Text="Flex LayOut"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="White"/>
+    </NavigationPage.TitleView>
+
+
+
+
     <FlexLayout Direction="Column" >
         <Label Text="Welcome to ReadLine Academy" FontSize="20" FontAttributes="Bold" BackgroundColor="DarkGray" HorizontalTextAlignment="Center" Padding="10"/>
         <FlexLayout FlexLayout.Grow="1" Direction="Row">
@@ -11,7 +24,9 @@
                 
             </VerticalStackLayout>
             <VerticalStackLayout BackgroundColor="White" FlexLayout.Grow="1">
-
+                <Label Text="This is Content area"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
             </VerticalStackLayout>
             <VerticalStackLayout BackgroundColor="DarkOliveGreen" FlexLayout.Basis="50">
 
