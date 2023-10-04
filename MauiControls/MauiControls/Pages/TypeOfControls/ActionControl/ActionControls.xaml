@@ -28,5 +28,46 @@
                 BackgroundColor="LightSkyBlue"
                SearchButtonPressed="searchButton_SearchButtonPressed"/>
         </Frame>
+        <SwipeView>
+            <SwipeView.LeftItems>
+                <SwipeItem 
+                    x:Name="facebookSwipeItem"
+                    BackgroundColor="Green"
+                    IconImageSource="facebook.png" 
+                   Invoked="facebookSwipeItem_Invoked"/>
+
+                <SwipeItem
+                     x:Name="instagramSwipeItem"
+                     BackgroundColor="BlueViolet"
+                     IconImageSource="instagram.png" 
+                    Invoked="instagramSwipeItem_Invoked"/>
+
+            </SwipeView.LeftItems>
+            <SwipeView.RightItems>
+                <SwipeItem 
+                    x:Name="twitterSwipeItem"
+                    BackgroundColor="AliceBlue"
+                    IconImageSource="twitter.png" 
+                   Invoked="twitterSwipeItem_Invoked"/>
+
+                <SwipeItem
+                     x:Name="gmailSwipeItem"
+                     BackgroundColor="green"
+                     IconImageSource="gmail.png" 
+                    Invoked="gmailSwipeItem_Invoked"/>
+
+            </SwipeView.RightItems>
+            <VerticalStackLayout>
+                <Label
+                    Text="This is Swipe view"
+                    FontSize="20"
+                    TextColor="white"
+                    BackgroundColor="Gray"
+                    Padding="15"
+                    FontAttributes="Bold"
+                    
+                    HorizontalTextAlignment="Center"/>
+            </VerticalStackLayout>
+        </SwipeView>
     </VerticalStackLayout>
 </ContentPage>

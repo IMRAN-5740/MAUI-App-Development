@@ -49,8 +49,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\facebook.png" />
+	  <None Remove="Resources\Images\gmail.png" />
 	  <None Remove="Resources\Images\imageButton.png" />
 	  <None Remove="Resources\Images\imran.png" />
+	  <None Remove="Resources\Images\instagram.png" />
+	  <None Remove="Resources\Images\twitter.png" />
 	</ItemGroup>
 
 	<ItemGroup>
