@@ -22,10 +22,10 @@
     <MauiXaml Update="Layouts\StackLayoutDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Layouts\TypesOfLayout\HorizontalStackLayout.xaml">
+    <MauiXaml Update="Layouts\TypesOfStackLayout\HorizontalStackLayout.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Layouts\TypesOfLayout\VerticalStackLayout.xaml">
+    <MauiXaml Update="Layouts\TypesOfStackLayout\VerticalStackLayout.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\ContentPages\ContentPageDemo1.xaml">

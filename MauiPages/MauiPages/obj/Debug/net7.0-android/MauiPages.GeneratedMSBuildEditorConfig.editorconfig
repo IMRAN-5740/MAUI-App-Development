@@ -38,17 +38,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.StackLay
 build_metadata.AdditionalFiles.TargetPath = Layouts\StackLayoutDemo.xaml
 build_metadata.AdditionalFiles.RelativePath = Layouts\StackLayoutDemo.xaml
 
-[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/TypesOfLayout/HorizontalStackLayout.xaml]
+[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/TypesOfStackLayout/HorizontalStackLayout.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.TypesOfLayout.HorizontalStackLayout.xaml
-build_metadata.AdditionalFiles.TargetPath = Layouts\TypesOfLayout\HorizontalStackLayout.xaml
-build_metadata.AdditionalFiles.RelativePath = Layouts\TypesOfLayout\HorizontalStackLayout.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.TypesOfStackLayout.HorizontalStackLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\TypesOfStackLayout\HorizontalStackLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\TypesOfStackLayout\HorizontalStackLayout.xaml
 
-[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/TypesOfLayout/VerticalStackLayout.xaml]
+[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/TypesOfStackLayout/VerticalStackLayout.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.TypesOfLayout.VerticalStackLayout.xaml
-build_metadata.AdditionalFiles.TargetPath = Layouts\TypesOfLayout\VerticalStackLayout.xaml
-build_metadata.AdditionalFiles.RelativePath = Layouts\TypesOfLayout\VerticalStackLayout.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.TypesOfStackLayout.VerticalStackLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\TypesOfStackLayout\VerticalStackLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\TypesOfStackLayout\VerticalStackLayout.xaml
 
 [E:/.Net MAUI Development/MauiPages/MauiPages/Pages/ContentPages/ContentPageDemo1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

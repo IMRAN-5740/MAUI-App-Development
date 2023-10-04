@@ -82,10 +82,10 @@
 	  <MauiXaml Update="Layouts\StackLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Layouts\TypesOfLayout\HorizontalStackLayout.xaml">
+	  <MauiXaml Update="Layouts\TypesOfStackLayout\HorizontalStackLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Layouts\TypesOfLayout\VerticalStackLayout.xaml">
+	  <MauiXaml Update="Layouts\TypesOfStackLayout\VerticalStackLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\ContentPages\ContentPageDemo1.xaml">
