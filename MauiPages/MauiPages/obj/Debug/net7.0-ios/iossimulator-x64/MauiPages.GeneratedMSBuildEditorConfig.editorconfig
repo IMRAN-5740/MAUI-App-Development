@@ -16,35 +16,41 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/AbsoluteLayoutDemo.xaml]
+[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/AbsoluteLayOut/AbsoluteLayoutDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.AbsoluteLayoutDemo.xaml
-build_metadata.AdditionalFiles.TargetPath = Layouts\AbsoluteLayoutDemo.xaml
-build_metadata.AdditionalFiles.RelativePath = Layouts\AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.AbsoluteLayOut.AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\AbsoluteLayOut\AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\AbsoluteLayOut\AbsoluteLayoutDemo.xaml
 
-[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/GridLayoutDemo.xaml]
+[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/FlexLayOut/FlexLayoutDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.GridLayoutDemo.xaml
-build_metadata.AdditionalFiles.TargetPath = Layouts\GridLayoutDemo.xaml
-build_metadata.AdditionalFiles.RelativePath = Layouts\GridLayoutDemo.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.FlexLayOut.FlexLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\FlexLayOut\FlexLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\FlexLayOut\FlexLayoutDemo.xaml
 
-[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/StackLayoutDemo.xaml]
+[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/GridLayOut/GridLayoutDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.StackLayoutDemo.xaml
-build_metadata.AdditionalFiles.TargetPath = Layouts\StackLayoutDemo.xaml
-build_metadata.AdditionalFiles.RelativePath = Layouts\StackLayoutDemo.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.GridLayOut.GridLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\GridLayOut\GridLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\GridLayOut\GridLayoutDemo.xaml
 
-[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/TypesOfStackLayout/HorizontalStackLayout.xaml]
+[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/StackLayOut/StackLayoutDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.TypesOfStackLayout.HorizontalStackLayout.xaml
-build_metadata.AdditionalFiles.TargetPath = Layouts\TypesOfStackLayout\HorizontalStackLayout.xaml
-build_metadata.AdditionalFiles.RelativePath = Layouts\TypesOfStackLayout\HorizontalStackLayout.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.StackLayOut.StackLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\StackLayOut\StackLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\StackLayOut\StackLayoutDemo.xaml
 
-[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/TypesOfStackLayout/VerticalStackLayout.xaml]
+[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/StackLayOut/TypesOfStackLayout/HorizontalStackLayout.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.TypesOfStackLayout.VerticalStackLayout.xaml
-build_metadata.AdditionalFiles.TargetPath = Layouts\TypesOfStackLayout\VerticalStackLayout.xaml
-build_metadata.AdditionalFiles.RelativePath = Layouts\TypesOfStackLayout\VerticalStackLayout.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.StackLayOut.TypesOfStackLayout.HorizontalStackLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\StackLayOut\TypesOfStackLayout\HorizontalStackLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\StackLayOut\TypesOfStackLayout\HorizontalStackLayout.xaml
+
+[E:/.Net MAUI Development/MauiPages/MauiPages/Layouts/StackLayOut/TypesOfStackLayout/VerticalStackLayout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiPages.Layouts.StackLayOut.TypesOfStackLayout.VerticalStackLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\StackLayOut\TypesOfStackLayout\VerticalStackLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\StackLayOut\TypesOfStackLayout\VerticalStackLayout.xaml
 
 [E:/.Net MAUI Development/MauiPages/MauiPages/Pages/ContentPages/ContentPageDemo1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

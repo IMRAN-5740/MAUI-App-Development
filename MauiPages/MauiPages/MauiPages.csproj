@@ -61,7 +61,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Layouts\StackLayoutDemo.xaml.cs">
+	  <Compile Update="Layouts\StackLayOut\StackLayoutDemo.xaml.cs">
 	    <DependentUpon>StackLayoutDemo.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Pages\FlyoutPages\FlyoutPageDemo.xaml.cs">
@@ -73,19 +73,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Layouts\AbsoluteLayoutDemo.xaml">
+	  <MauiXaml Update="Layouts\AbsoluteLayOut\AbsoluteLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Layouts\GridLayoutDemo.xaml">
+	  <MauiXaml Update="Layouts\FlexLayOut\FlexLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Layouts\StackLayoutDemo.xaml">
+	  <MauiXaml Update="Layouts\GridLayOut\GridLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Layouts\TypesOfStackLayout\HorizontalStackLayout.xaml">
+	  <MauiXaml Update="Layouts\StackLayOut\StackLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Layouts\TypesOfStackLayout\VerticalStackLayout.xaml">
+	  <MauiXaml Update="Layouts\StackLayOut\TypesOfStackLayout\HorizontalStackLayout.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Layouts\StackLayOut\TypesOfStackLayout\VerticalStackLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\ContentPages\ContentPageDemo1.xaml">

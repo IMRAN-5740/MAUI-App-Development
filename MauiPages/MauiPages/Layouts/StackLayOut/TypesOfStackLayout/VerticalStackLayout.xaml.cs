@@ -1,4 +1,4 @@
-namespace MauiPages.Layouts.TypesOfStackLayout;
+namespace MauiPages.Layouts.StackLayOut.TypesOfStackLayout;
 
 public partial class VerticalStackLayout : ContentPage
 {

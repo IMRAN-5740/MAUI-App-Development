@@ -1,4 +1,5 @@
 ﻿using MauiPages.Layouts;
+using MauiPages.Layouts.StackLayOut;
 using MauiPages.Pages.ContentPages;
 using MauiPages.Pages.FlyoutPages;
 using MauiPages.Pages.NavigationPages;

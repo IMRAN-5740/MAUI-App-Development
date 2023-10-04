@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiPages.Layouts.StackLayoutDemo"
+             x:Class="MauiPages.Layouts.StackLayOut.StackLayoutDemo"
              Title="Stack Layout"
              BackgroundColor="White">
     <ScrollView Orientation="Vertical" >
@@ -42,6 +42,13 @@
                 FontSize="20"
                 Clicked="absoluteLayout_Clicked"      
                 />
+            <Button
+                 x:Name="flexLayout"
+                 Text="Go to Flex Layout"
+                 FontAttributes="Bold"
+                 FontSize="20"
+                 Clicked="flexLayout_Clicked"         
+                 />
 
         </StackLayout>
     </ScrollView>
