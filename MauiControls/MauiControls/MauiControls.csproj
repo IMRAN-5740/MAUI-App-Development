@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\imageButton.png" />
 	  <None Remove="Resources\Images\imran.png" />
 	</ItemGroup>
 
@@ -67,5 +68,7 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
+
+	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionMauiControlsHideInfoBar="True" XamarinHotReloadGenericExceptionInfoBarMauiControlsHideInfoBar="True" /></VisualStudio></ProjectExtensions>
 
 </Project>

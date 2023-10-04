@@ -2,14 +2,29 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiControls.Pages.TypeOfControls.ActionControl.ActionControls"
-             Title="ActionControls">
+             Title="ActionControls"
+             BackgroundColor="White">
     <VerticalStackLayout>
         <Frame>
             <Button
-                x:Name="demoClick"
-                TextColor="Red"
+                x:Name="demoButton"
+                TextColor="White"
                 Text="Click Me"
-                Clicked="demoClick_Clicked"/>
+                Clicked="demoButton_Clicked"
+                BackgroundColor="Green"/>
+        </Frame>
+        <Frame>
+            <ImageButton
+          x:Name="demoImageButton"
+          Source="imagebutton.png"
+          Clicked="demoImageButton_Clicked"
+                HeightRequest="50"/>
+        </Frame>
+
+        <Frame>
+            <SearchBar
+                x:Name="searchButton"
+               SearchButtonPressed="searchButton_SearchButtonPressed"/>
         </Frame>
     </VerticalStackLayout>
 </ContentPage>

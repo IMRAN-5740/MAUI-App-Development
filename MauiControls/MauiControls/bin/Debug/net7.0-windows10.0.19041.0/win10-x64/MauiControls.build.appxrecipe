@@ -877,6 +877,9 @@
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiControls\MauiControls\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\MauiControls\MauiControls\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagebutton.scale-100.png">
+      <PackagePath>imagebutton.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiControls\MauiControls\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\imran.scale-100.png">
       <PackagePath>imran.scale-100.png</PackagePath>
     </AppxPackagedFile>

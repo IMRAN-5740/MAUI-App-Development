@@ -5,7 +5,7 @@
              Title="Common Controls"
              BackgroundColor="White"
              >
-    <ScrollView>
+    <ScrollView VerticalScrollBarVisibility="Always">
         <VerticalStackLayout>
             <Frame  BackgroundColor="White" Margin="10">
                 <VerticalStackLayout>
@@ -15,17 +15,18 @@
                           FontSize="20"
                           FontAttributes="Bold"
                           HorizontalOptions="Center"
+                        TextColor="Black"
                         />
                 </VerticalStackLayout>
             </Frame>
             <Frame BackgroundColor="White" Margin="10">
-                <Border Padding="10" StrokeThickness="5" Stroke="Red" BackgroundColor="White">
-                    <Label Text="Welcome to ReadLine Academy" HorizontalOptions="Center"/>
+                <Border Padding="10" StrokeThickness="5" Stroke="Red" BackgroundColor="Gray">
+                    <Label Text="Welcome to ReadLine Academy" TextColor="Black" HorizontalOptions="Center"/>
                 </Border>
             </Frame>
 
 
-            <WebView Source="https://github.com/IMRAN-5740" BackgroundColor="White"/>
+            <WebView Source="https://github.com/IMRAN-5740" BackgroundColor="Black"/>
         </VerticalStackLayout>
     </ScrollView>
   
