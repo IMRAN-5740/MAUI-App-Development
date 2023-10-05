@@ -10,8 +10,8 @@
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <VerticalStackLayout BackgroundColor="#eaeefa" Padding="10">
-                        <Label FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Title}"/>
-                        <Label FontSize="Small"  HorizontalTextAlignment="Center" Text="{Binding Description}"/>
+                        <Label BackgroundColor="Gray" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Title}"/>
+                        <Label BackgroundColor="Gray"  FontSize="Small"  HorizontalTextAlignment="Center" Text="{Binding Description}"/>
 
                     </VerticalStackLayout>
                 </DataTemplate>    
