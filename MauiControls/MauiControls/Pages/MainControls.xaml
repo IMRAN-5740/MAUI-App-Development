@@ -31,13 +31,21 @@
                   Clicked="actionControl_Clicked"
                 BackgroundColor="Green"/>
             <Button 
-                x:Name="inputControl"
-                Text="Go to Input  Controls Page"
-                TextColor="White"
-                FontAttributes="Bold"
-                FontSize="20"
-                Clicked="inputControl_Clicked"
-              BackgroundColor="Green"/>
+                    x:Name="inputControl"
+                    Text="Go to Input  Controls Page"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Clicked="inputControl_Clicked"
+                  BackgroundColor="Green"/>
+            <Button 
+                   x:Name="indicatorControl"
+                   Text="Go to Indicator  Controls Page"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   Clicked="indicatorControl_Clicked"
+                 BackgroundColor="Green"/>
         </VerticalStackLayout>
 
 

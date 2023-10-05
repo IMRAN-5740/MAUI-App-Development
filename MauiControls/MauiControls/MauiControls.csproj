@@ -77,6 +77,9 @@
 	  <MauiXaml Update="Pages\TypeOfControls\CommonControl\CommonControls.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\TypeOfControls\IndicatorControl\IndicatorControls.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\TypeOfControls\InputControl\InputControls.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
