@@ -25,9 +25,7 @@
                 <ProgressBar
                     Progress=".5"
                     ProgressColor="Green"
-                    
-                           
-          />
+                    />
             </Frame>
         </VerticalStackLayout>
          

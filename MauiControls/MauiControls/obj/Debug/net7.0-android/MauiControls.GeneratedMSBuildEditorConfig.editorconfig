@@ -44,6 +44,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.TypeOfC
 build_metadata.AdditionalFiles.TargetPath = Pages\TypeOfControls\CommonControl\CommonControls.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\TypeOfControls\CommonControl\CommonControls.xaml
 
+[E:/.Net MAUI Development/MauiControls/MauiControls/Pages/TypeOfControls/DrawingControl/DrawingControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.TypeOfControls.DrawingControl.DrawingControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TypeOfControls\DrawingControl\DrawingControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TypeOfControls\DrawingControl\DrawingControls.xaml
+
 [E:/.Net MAUI Development/MauiControls/MauiControls/Pages/TypeOfControls/IndicatorControl/IndicatorControls.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.TypeOfControls.IndicatorControl.IndicatorControls.xaml

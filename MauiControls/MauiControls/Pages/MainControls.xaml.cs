@@ -1,5 +1,6 @@
 using MauiControls.Pages.TypeOfControls.ActionControl;
 using MauiControls.Pages.TypeOfControls.CommonControl;
+using MauiControls.Pages.TypeOfControls.DrawingControl;
 using MauiControls.Pages.TypeOfControls.IndicatorControl;
 using MauiControls.Pages.TypeOfControls.InputControl;
 
@@ -29,5 +30,11 @@ public partial class MainControls : ContentPage
     private async void indicatorControl_Clicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new IndicatorControls());
+    }
+
+    private async void drawingControl_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new DrawingControls());
+
     }
 }

@@ -25,6 +25,9 @@
     <MauiXaml Update="Pages\TypeOfControls\CommonControl\CommonControls.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\TypeOfControls\DrawingControl\DrawingControls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\TypeOfControls\IndicatorControl\IndicatorControls.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -46,6 +46,14 @@
                    FontSize="20"
                    Clicked="indicatorControl_Clicked"
                  BackgroundColor="Green"/>
+            <Button 
+        x:Name="drawingControl"
+        Text="Go to Drawing  Controls Page"
+        TextColor="White"
+        FontAttributes="Bold"
+        FontSize="20"
+        Clicked="drawingControl_Clicked"
+      BackgroundColor="Green"/>
         </VerticalStackLayout>
 
 
