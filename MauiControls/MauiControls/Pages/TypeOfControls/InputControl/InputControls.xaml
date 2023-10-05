@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiControls.Pages.TypeOfControls.InputControl.InputControls"
+             BackgroundColor="White"
+             >
+    <NavigationPage.TitleView >
+        <Label
+            x:Name="pageTitleView"
+            HorizontalTextAlignment="Center"
+             FontSize="20"
+             FontAttributes="Bold"
+            Padding="20"
+            Text="Input Controls"/>
+    </NavigationPage.TitleView>
+    <ScrollView>
+       
+        
+        <VerticalStackLayout Padding="10" Spacing="10">
+            <Label 
+                   Text="Input Controls "
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            
+            
+            
+            
+            
+            <Frame BackgroundColor="#EaEEfa">
+                <Entry Placeholder="Enter Text Here" TextColor="Black" PlaceholderColor="Red" />
+            </Frame>
+            <Frame BackgroundColor="#EaEEfa">
+                <Editor Placeholder="Enter Text Here" TextColor="Black" PlaceholderColor="Red" AutoSize="TextChanges" />
+            </Frame>
+            <Frame BackgroundColor="#EaEEfa">
+                <HorizontalStackLayout>
+                    <CheckBox />
+                    <Label Text="Asp Net" TextColor="Black" VerticalOptions="Center"/>
+                    
+                    <CheckBox />
+                    <Label Text="Entity Framework" TextColor="Black" VerticalOptions="Center"/>
+                    
+                    <CheckBox />
+                    <Label Text="Microsoft SQL" TextColor="Black" VerticalOptions="Center"/>
+                    
+                </HorizontalStackLayout>
+               
+            </Frame>
+            
+            <Frame BackgroundColor="#EaEEfa">
+                <VerticalStackLayout>
+                    
+                    <RadioButton GroupName="Group1" Content="Male" />
+                    <RadioButton GroupName="Group1" Content="Female" />
+                    <RadioButton GroupName="Group1" Content="Custom" />
+                    <RadioButton GroupName="Group2" Content="Either Not Say" />
+
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EaEEfa">
+                <VerticalStackLayout>
+                    <Slider Minimum="1" ValueChanged="Slider_ValueChanged" Maximum="100" MinimumTrackColor="Black" MaximumTrackColor="Red"  ThumbColor="Green"/>
+                    <Label 
+                     x:Name="sliderValue"
+                     HorizontalOptions="Center"
+                     />
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EaEEfa">
+                <Stepper Minimum="3" Maximum="15" Increment="2" ValueChanged="Stepper_ValueChanged" HorizontalOptions="Center"/>
+            </Frame>
+
+            <Frame BackgroundColor="#EaEEfa">
+                <Switch HorizontalOptions="Center"/>
+            </Frame>
+            <Frame BackgroundColor="#EaEEfa">
+                <DatePicker HorizontalOptions="Center"></DatePicker>
+            </Frame>
+            <Frame BackgroundColor="#EaEEfa">
+                <TimePicker HorizontalOptions="Center"></TimePicker>
+            </Frame>
+        </VerticalStackLayout>
+     
+    </ScrollView>
+   
+</ContentPage>

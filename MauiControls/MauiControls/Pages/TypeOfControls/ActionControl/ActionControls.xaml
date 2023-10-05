@@ -38,7 +38,7 @@
 
                 <SwipeItem
                      x:Name="instagramSwipeItem"
-                     BackgroundColor="BlueViolet"
+                     BackgroundColor="#ff714b"
                      IconImageSource="instagram.png" 
                     Invoked="instagramSwipeItem_Invoked"/>
 
