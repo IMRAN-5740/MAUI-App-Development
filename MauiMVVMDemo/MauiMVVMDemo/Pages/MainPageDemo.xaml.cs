@@ -11,7 +11,7 @@ public partial class MainPageDemo : ContentPage
 
     private void employee1_Clicked(object sender, EventArgs e)
     {
-        var employeeDetailViewModel = new EmployeeDetailViewModel
+        var employeeDetailViewModel = new EmployeeDetailViewModel2
         {
             EmployeeId = "Emp001",
             EmployeeName = "Basar Ovi",
@@ -25,7 +25,7 @@ public partial class MainPageDemo : ContentPage
 
     private void employee3_Clicked(object sender, EventArgs e)
     {
-        var employeeDetailViewModel = new EmployeeDetailViewModel
+        var employeeDetailViewModel = new EmployeeDetailViewModel2
         {
             EmployeeId = "Emp002",
             EmployeeName = "Mohammad Imran",
@@ -39,7 +39,7 @@ public partial class MainPageDemo : ContentPage
 
     private void employee2_Clicked(object sender, EventArgs e)
     {
-        var employeeDetailViewModel = new EmployeeDetailViewModel
+        var employeeDetailViewModel = new EmployeeDetailViewModel2
         {
             EmployeeId = "Emp003",
             EmployeeName = "Marajul Islam",

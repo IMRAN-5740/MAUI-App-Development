@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+x/iVg4n58LFMQeaDI5EjjcUfe3NaP5GZ4ctLLpKmtExTl2lngH/bwNRJB0lC/C43/Cgu9bc4dmjvWUst1qkCA==",
+  "dgSpecHash": "AK6WLgxDkfwnJblUvCxkOGIXOIQF64sdriSBKFQvlYCDTFtM/Yx7uFIawIg2A7tJW3EMw7pHo8UouU57Xbv+cg==",
   "success": true,
   "projectFilePath": "E:\\.Net MAUI Development\\MauiMVVMDemo\\MauiMVVMDemo\\MauiMVVMDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\imran\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
