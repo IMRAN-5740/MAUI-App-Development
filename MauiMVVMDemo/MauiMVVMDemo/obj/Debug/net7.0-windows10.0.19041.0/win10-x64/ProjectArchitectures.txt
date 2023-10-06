@@ -1,0 +1,1 @@
+E:\.Net MAUI Development\MauiMVVMDemo\MauiMVVMDemo\MauiMVVMDemo.csproj;x64

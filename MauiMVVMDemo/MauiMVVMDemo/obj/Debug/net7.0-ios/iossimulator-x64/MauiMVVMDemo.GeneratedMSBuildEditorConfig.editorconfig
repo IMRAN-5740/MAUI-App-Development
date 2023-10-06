@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiMVVMDemo
+build_property.ProjectDir = E:\.Net MAUI Development\MauiMVVMDemo\MauiMVVMDemo\
+
+[E:/.Net MAUI Development/MauiMVVMDemo/MauiMVVMDemo/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/.Net MAUI Development/MauiMVVMDemo/MauiMVVMDemo/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[E:/.Net MAUI Development/MauiMVVMDemo/MauiMVVMDemo/Pages/EmployeeDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.Pages.EmployeeDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EmployeeDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EmployeeDetailPage.xaml
+
+[E:/.Net MAUI Development/MauiMVVMDemo/MauiMVVMDemo/Pages/MainPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.Pages.MainPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPageDemo.xaml
+
+[E:/.Net MAUI Development/MauiMVVMDemo/MauiMVVMDemo/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/.Net MAUI Development/MauiMVVMDemo/MauiMVVMDemo/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

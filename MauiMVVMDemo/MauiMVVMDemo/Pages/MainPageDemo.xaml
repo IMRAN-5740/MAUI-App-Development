@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiMVVMDemo.Pages.MainPageDemo"
+             Title="MVVM Demo">
+    <VerticalStackLayout  Padding="10" Spacing="10">
+        <Label 
+            Text="Employees"
+            TextColor="Red"
+            Margin="10"
+            
+            HorizontalOptions="Center" />
+        <Button
+            x:Name="employee1"
+            Text="Employee1"
+            TextColor="Black"
+            BackgroundColor="Gray"
+            FontAttributes="Bold"
+            FontSize="Medium"
+            Clicked="employee1_Clicked"
+            />
+        <Button
+                 x:Name="employee2"
+                 Text="Employee2"
+                 TextColor="Black"
+                 BackgroundColor="Gray"
+                 FontAttributes="Bold"
+                 FontSize="Medium"
+                 Clicked="employee2_Clicked"
+                 />
+                 <Button
+                 x:Name="employee3" 
+                 Text="Employee3"
+                 TextColor="Black"
+                 BackgroundColor="Gray"
+                 FontAttributes="Bold"
+                 FontSize="Medium"
+                 Clicked="employee3_Clicked"
+                 />
+    </VerticalStackLayout>
+</ContentPage>
