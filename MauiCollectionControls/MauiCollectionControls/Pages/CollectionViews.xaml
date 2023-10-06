@@ -4,7 +4,7 @@
              x:Class="MauiCollectionControls.Pages.CollectionViews"
              Title="Collection Views">
 
-    <CollectionView x:Name="collectionView" ItemsLayout="HorizontalGrid,3" SelectionMode="Single">
+    <CollectionView x:Name="collectionView" ItemsLayout="VerticalGrid,2" SelectionMode="Single" EmptyView="No data Available">
         <CollectionView.Header>
             <VerticalStackLayout HorizontalOptions="Center" Padding="20" Spacing="10">
                 <Label Text="Countries" TextColor="Blue" FontSize="20" FontAttributes="Bold"/>

@@ -8,9 +8,10 @@ public partial class CollectionViews : ContentPage
 	{
 		InitializeComponent();
 		collectionView.ItemsSource=GetCountries();
-		
-	}
-	private List<Country> GetCountries()
+        //collectionView.ItemsSource=new List<Country>();
+
+    }
+    private List<Country> GetCountries()
 	{
 		return new List<Country>
 		{
@@ -20,8 +21,14 @@ public partial class CollectionViews : ContentPage
 			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
 			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
 			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
+            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
+            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
+            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
+            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
+            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
+            new Country{CountryName="Bangladesh",ISONumber="Think Outside the Box",FlagURL="Demo Url"},
 
-		};
+        };
 
     }
 }
