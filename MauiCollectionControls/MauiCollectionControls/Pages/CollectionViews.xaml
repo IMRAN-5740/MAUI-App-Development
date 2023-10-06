@@ -5,11 +5,16 @@
              Title="Collection Views">
 
     <CollectionView x:Name="collectionView" ItemsLayout="VerticalGrid,2" SelectionMode="Single" EmptyView="No data Available">
-        <CollectionView.Header>
-            <VerticalStackLayout HorizontalOptions="Center" Padding="20" Spacing="10">
-                <Label Text="Countries" TextColor="Blue" FontSize="20" FontAttributes="Bold"/>
+        <CollectionView.Header >
+            <VerticalStackLayout HorizontalOptions="FillAndExpand"  Padding="20" Spacing="10" BackgroundColor="Gray">
+                <Label Text="Countries" HorizontalOptions="Center"   TextColor="Blue" FontSize="20" FontAttributes="Bold"/>
             </VerticalStackLayout>
         </CollectionView.Header>
+        <CollectionView.Footer>
+            <VerticalStackLayout HorizontalOptions="FillAndExpand"  Padding="20" Spacing="10" BackgroundColor="Gray">
+                <Label Text="ReadLine Academy" HorizontalOptions="Center"  TextColor="White" FontSize="Medium" FontAttributes="Bold" />
+            </VerticalStackLayout>
+        </CollectionView.Footer>
         <!--<CollectionView.ItemsSource>
             <x:Array Type="{x:Type x:String}">
                 <x:String>Item 1</x:String>
@@ -25,10 +30,10 @@
 
             </x:Array>
         </CollectionView.ItemsSource>-->
-        <CollectionView.ItemTemplate>
+        <CollectionView.ItemTemplate   >
             <DataTemplate>
-                <Frame>
-                    <Grid>
+                <Frame BorderColor="Red"   Padding="10" Margin="10" >
+                    <Grid  Padding="5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="0.2*"/>
                             <ColumnDefinition Width="0.8*"/>

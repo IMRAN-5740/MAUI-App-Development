@@ -15,18 +15,11 @@ public partial class CollectionViews : ContentPage
 	{
 		return new List<Country>
 		{
-			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-			new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-            new Country{CountryName="Bangladesh",ISONumber="1234 BD",FlagURL="Demo Url"},
-            new Country{CountryName="Bangladesh",ISONumber="Think Outside the Box",FlagURL="Demo Url"},
+			new Country{CountryName="United America",ISONumber="ISO-numeric 840",FlagURL="https://flagcdn.com/256x192/ua.png"},
+			new Country{CountryName="Bangladesh",ISONumber="ISO-numeric 50",FlagURL="https://flagcdn.com/256x192/bd.png"},
+			new Country{CountryName="India",ISONumber="ISO-numeric 1",FlagURL="https://flagcdn.com/256x192/in.png"},
+			new Country{CountryName="Pakisthan",ISONumber="ISO-numeric 586,",FlagURL="https://flagcdn.com/256x192/pk.png"},
+			new Country{CountryName="Andorra",ISONumber="ISO-numeric 587",FlagURL="https://flagcdn.com/256x192/ad.png"},
 
         };
 

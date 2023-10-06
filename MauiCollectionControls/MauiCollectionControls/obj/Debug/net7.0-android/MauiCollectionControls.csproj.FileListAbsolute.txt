@@ -971,3 +971,4 @@ E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\obj\Debug
 E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
 E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
 E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\obj\Debug\net7.0-android\resizetizer\r\drawable\imran.png
