@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCollectionControls.Pages.CollectionViews"
+             Title="Collection Views">
+
+    <CollectionView x:Name="collectionView" ItemsLayout="HorizontalGrid,3" SelectionMode="Single">
+        <CollectionView.Header>
+            <VerticalStackLayout HorizontalOptions="Center" Padding="20" Spacing="10">
+                <Label Text="Countries" TextColor="Blue" FontSize="20" FontAttributes="Bold"/>
+            </VerticalStackLayout>
+        </CollectionView.Header>
+        <!--<CollectionView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Item 1</x:String>
+                <x:String>Item 2</x:String>
+                <x:String>Item 3</x:String>
+                <x:String>Item 4</x:String>
+                <x:String>Item 5</x:String>
+                <x:String>Item 6</x:String>
+                <x:String>Item 7</x:String>
+                <x:String>Item 8</x:String>
+                <x:String>Item 9</x:String>
+                <x:String>Item 10</x:String>
+
+            </x:Array>
+        </CollectionView.ItemsSource>-->
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.2*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding FlagURL}" Grid.Column="0" Grid.Row="0"/>
+                        <VerticalStackLayout Grid.Column="1" Grid.Row="0" Padding="5" VerticalOptions="Center">
+                            <Label  Text="{Binding CountryName}" FontSize="Medium"  FontAttributes="Bold"/>
+                            <Label  Text="{Binding ISONumber}" FontSize="Small"  FontAttributes="Italic"/>
+
+                        </VerticalStackLayout>
+                    </Grid>
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+        
+    </CollectionView>
+    
+</ContentPage>

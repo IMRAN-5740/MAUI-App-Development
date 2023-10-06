@@ -17,4 +17,15 @@ public partial class MainViews : ContentPage
         await Navigation.PushAsync(new IndicatorViews());
 
     }
+
+    private async void listView_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new ListViewDemo());
+    }
+
+    private async void collectionView_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new CollectionViews());
+
+    }
 }

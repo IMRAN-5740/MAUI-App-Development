@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCollectionControls.Pages.ListViewDemo"
+             Title="List View ">
+        <ListView  x:Name="listView" HasUnevenRows="True" SeparatorColor="Red" >
+        <!--<ListView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Item 1</x:String>
+                <x:String>Item 2</x:String>
+                <x:String>Item 3</x:String>
+                <x:String>Item 4</x:String>
+                <x:String>Item 5</x:String>
+            </x:Array>
+            
+        </ListView.ItemsSource>-->
+        <ListView.ItemTemplate >
+
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout BackgroundColor="Bisque" Padding="20">
+                        <Label TextColor="Red" FontAttributes="Bold" FontSize="20" Margin="10" HorizontalOptions="Center" Text="{Binding Title}"/>
+                        <Label TextColor="Green" FontSize="Small"  Margin="10" HorizontalOptions="Center" Text="{Binding Description}"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+   
+</ContentPage>

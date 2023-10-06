@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-05T09:44:53.820</Modified>
+      <Modified>2023-10-06T02:51:06.689</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-05T09:44:53.503</Modified>
+      <Modified>2023-10-06T02:45:37.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionControls.runtimeconfig.json">
       <PackagePath>MauiCollectionControls.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionControls.dll">
       <PackagePath>MauiCollectionControls.dll</PackagePath>
-      <Modified>2023-10-05T09:44:50.636</Modified>
+      <Modified>2023-10-06T02:51:02.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiCollectionControls.exe</PackagePath>
-      <Modified>2023-10-05T09:44:50.686</Modified>
+      <Modified>2023-10-06T02:51:02.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\MauiCollectionControls\MauiCollectionControls\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionControls.deps.json">
       <PackagePath>MauiCollectionControls.deps.json</PackagePath>
-      <Modified>2023-10-05T09:44:53.153</Modified>
+      <Modified>2023-10-06T02:45:37.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

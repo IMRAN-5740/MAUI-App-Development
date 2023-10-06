@@ -8,8 +8,9 @@
         <Label 
             Text="Welcome to .NET MAUI!"
             TextColor="Red"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            VerticalOptions="Start" 
+            HorizontalOptions="Center"
+            />
         <Button
             x:Name="carouselView"
             Text="Go to Carousel View "
@@ -25,8 +26,22 @@
               FontSize="20"
               TextColor="Black"
             BackgroundColor="Gray"
-            
-            
             Clicked="indicatorView_Clicked"/>
+        <Button
+              x:Name="listView"
+              Text="Go to List View "
+              FontAttributes="Bold"
+              FontSize="20"
+              TextColor="Black"
+            BackgroundColor="Gray"
+            Clicked="listView_Clicked"/>
+        <Button
+               x:Name="collectionView"
+               Text="Go to Collection View "
+               FontAttributes="Bold"
+               FontSize="20"
+               TextColor="Black"
+             BackgroundColor="Gray"
+             Clicked="collectionView_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

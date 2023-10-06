@@ -28,11 +28,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiCollectionControls.Pag
 build_metadata.AdditionalFiles.TargetPath = Pages\CarouselViews.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\CarouselViews.xaml
 
+[E:/.Net MAUI Development/MauiCollectionControls/MauiCollectionControls/Pages/CollectionViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiCollectionControls.Pages.CollectionViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CollectionViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CollectionViews.xaml
+
 [E:/.Net MAUI Development/MauiCollectionControls/MauiCollectionControls/Pages/IndicatorViews.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiCollectionControls.Pages.IndicatorViews.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\IndicatorViews.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\IndicatorViews.xaml
+
+[E:/.Net MAUI Development/MauiCollectionControls/MauiCollectionControls/Pages/ListViewDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiCollectionControls.Pages.ListViewDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ListViewDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ListViewDemo.xaml
 
 [E:/.Net MAUI Development/MauiCollectionControls/MauiCollectionControls/Pages/MainViews.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
