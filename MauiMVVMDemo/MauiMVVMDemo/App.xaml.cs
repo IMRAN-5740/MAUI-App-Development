@@ -7,7 +7,7 @@ namespace MauiMVVMDemo
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(  new MainPageDemo());
+            MainPage = new NavigationPage(  new EmployeeListPage());
         }
     }
 }

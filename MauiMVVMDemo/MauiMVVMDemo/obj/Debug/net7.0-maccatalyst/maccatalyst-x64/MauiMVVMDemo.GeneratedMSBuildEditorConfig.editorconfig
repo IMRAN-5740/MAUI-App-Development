@@ -28,6 +28,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.Pages.Employe
 build_metadata.AdditionalFiles.TargetPath = Pages\EmployeeDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\EmployeeDetailPage.xaml
 
+[E:/.Net MAUI Development/MauiMVVMDemo/MauiMVVMDemo/Pages/EmployeeListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.Pages.EmployeeListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EmployeeListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EmployeeListPage.xaml
+
 [E:/.Net MAUI Development/MauiMVVMDemo/MauiMVVMDemo/Pages/MainPageDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiMVVMDemo.Pages.MainPageDemo.xaml

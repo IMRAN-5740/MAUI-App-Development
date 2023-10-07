@@ -7,17 +7,24 @@
         <member name="T:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2">
             <inheritdoc/>
         </member>
-        <member name="P:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.EmployeeId">
-            <inheritdoc cref="F:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.employeeId"/>
+        <member name="P:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.Employee">
+            <inheritdoc cref="F:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.employee"/>
         </member>
-        <member name="P:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.EmployeeName">
-            <inheritdoc cref="F:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.employeeName"/>
+        <member name="T:MauiMVVMDemo.ViewModels.EmployeesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
-        <member name="P:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.Email">
-            <inheritdoc cref="F:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.email"/>
+        <member name="P:MauiMVVMDemo.ViewModels.EmployeesViewModel.Employees">
+            <inheritdoc cref="F:MauiMVVMDemo.ViewModels.EmployeesViewModel.employees"/>
         </member>
-        <member name="P:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.IsPartTimer">
-            <inheritdoc cref="F:MauiMVVMDemo.ViewModels.EmployeeDetailViewModel2.isPartTimer"/>
+        <member name="P:MauiMVVMDemo.ViewModels.EmployeesViewModel.Employee">
+            <inheritdoc cref="F:MauiMVVMDemo.ViewModels.EmployeesViewModel.employee"/>
+        </member>
+        <member name="F:MauiMVVMDemo.ViewModels.EmployeesViewModel.addCommand">
+            <summary>The backing field for <see cref="P:MauiMVVMDemo.ViewModels.EmployeesViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:MauiMVVMDemo.ViewModels.EmployeesViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MauiMVVMDemo.ViewModels.EmployeesViewModel.Add"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
@@ -25,17 +32,11 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EmployeeId">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EmployeeId" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Employee">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Employee" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EmployeeName">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EmployeeName" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsPartTimer">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsPartTimer" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Employees">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Employees" generated properties.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
@@ -43,17 +44,11 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EmployeeId">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EmployeeId" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Employee">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Employee" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EmployeeName">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EmployeeName" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsPartTimer">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsPartTimer" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Employees">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Employees" generated properties.</summary>
         </member>
     </members>
 </doc>

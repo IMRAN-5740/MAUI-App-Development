@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiMVVMDemo.Pages.EmployeeListPage"
+             xmlns:viewModels="clr-namespace:MauiMVVMDemo.ViewModels"
+             xmlns:models="clr-namespace:MauiMVVMDemo.Models"
+             x:DataType="viewModels:EmployeesViewModel"
+             Title="Employee List Page">
+    <StackLayout>
+        <VerticalStackLayout>
+            <Entry Placeholder="Enter Employee ID" PlaceholderColor="Red" Text="{Binding Employee.EmployeeId}" />
+            <Entry Placeholder="Enter Employee Name" PlaceholderColor="Red"  Text="{Binding Employee.EmployeeName}"/>
+
+            <Entry Placeholder="Enter Employee Email" PlaceholderColor="Red"  Text="{Binding Employee.Email}"/>
+            <HorizontalStackLayout>
+                <Label Text="Is PartTimer"/>
+                <Switch IsToggled="{Binding Employee.IsPartTimer } "  />
+            </HorizontalStackLayout>
+            <Button Text="Add Employee" Margin="10" Command="{Binding AddCommand}"/>
+        </VerticalStackLayout>
+
+        <ListView FlexLayout.Grow="1" ItemsSource="{Binding Employees}" ItemTapped="ListView_ItemTapped">
+            <ListView.Header>
+                <VerticalStackLayout BackgroundColor="SkyBlue" Padding="5">
+                    <Label Text="Employees" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold" TextColor="Black" BackgroundColor="White"/>
+                </VerticalStackLayout>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type models:Employee}">
+                    <TextCell Text="{Binding EmployeeName}" Detail="{Binding Email}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

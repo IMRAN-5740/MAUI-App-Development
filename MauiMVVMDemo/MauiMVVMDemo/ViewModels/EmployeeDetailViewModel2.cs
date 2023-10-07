@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using MauiMVVMDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +11,6 @@ namespace MauiMVVMDemo.ViewModels
     public partial class EmployeeDetailViewModel2:ObservableObject
     {
         [ObservableProperty]
-        private string employeeId;
-        [ObservableProperty]
-        private string employeeName;
-        [ObservableProperty]
-        private string email;
-        [ObservableProperty]
-        private bool isPartTimer;
+        private Employee employee;
     }
 }
