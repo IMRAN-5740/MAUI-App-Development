@@ -12,7 +12,7 @@ namespace MAUISql.Data
 {
     public class ApplicationDbContext:IAsyncDisposable
     {
-        private const string DbName = "MAUISql.db";
+        private const string DbName = "MySql.db";
         private static string DbPath => Path.Combine(FileSystem.AppDataDirectory, DbName);
 
 

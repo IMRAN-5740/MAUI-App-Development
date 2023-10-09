@@ -4,13 +4,13 @@
              x:Class="MAUISql.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
+        <VrticalStackLayout
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
+            
 
-
-        </VerticalStackLayout>
+        </VrticalStackLayout>
     </ScrollView>
 
 </ContentPage>
