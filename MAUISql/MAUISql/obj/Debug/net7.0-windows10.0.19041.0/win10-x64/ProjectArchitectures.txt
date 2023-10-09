@@ -1,0 +1,1 @@
+E:\.Net MAUI Development\MAUISql\MAUISql\MAUISql.csproj;x64

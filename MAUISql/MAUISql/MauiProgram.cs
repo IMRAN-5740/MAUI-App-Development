@@ -1,4 +1,5 @@
 ﻿using MAUISql.Data;
+using MAUISql.ViewModels;
 using Microsoft.Extensions.Logging;
 
 namespace MAUISql
@@ -21,6 +22,9 @@ namespace MAUISql
 #endif
             
             builder.Services.AddSingleton<ApplicationDbContext>();
+            builder.Services.AddSingleton<ProductsViewModel>();
+            builder.Services.AddSingleton<MainPage>();
+
             return builder.Build();
         }
     }

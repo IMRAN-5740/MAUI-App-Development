@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MAUISql.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext:IAsyncDisposable
     {
         private const string DbName = "MAUISql.db";
         private static string DbPath => Path.Combine(FileSystem.AppDataDirectory, DbName);
@@ -88,9 +88,10 @@ namespace MAUISql.Data
             await CreateTableIfNotExists<TTable>();
             return await Database.DeleteAsync<TTable>(primaryKey) > 0;
         }
-        
 
-
-
+        public async ValueTask DisposeAsync()
+        {
+           await  _connection?.CloseAsync();
+        }
     }
 }
