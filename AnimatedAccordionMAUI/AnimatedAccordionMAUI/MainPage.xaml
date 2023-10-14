@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimatedAccordionMAUI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30"
+            VerticalOptions="Start">
+
+            <VerticalStackLayout VerticalOptions="Start">
+                <Grid ColumnDefinitions="*, Auto"
+                      BackgroundColor="#333"
+                      Padding="10">
+                    <Label Grid.Column="0"
+                           Text="This is accordion header"
+                           TextColor="White"/>
+                    <Label Grid.Column="1"
+                           Text=">"
+                           Rotation="90"
+                           FontAttributes="Bold"
+                           FontSize="16"
+                           TextColor="White"
+                           x:Name="iconFunction"/>
+
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                    </Grid.GestureRecognizers>
+                </Grid>
+                <VerticalStackLayout Spacing="10"
+                                     BackgroundColor="#eee"
+                                     x:Name="itemsFunction">
+                    <Label Text="This is sample accorion content"/>
+                    <Label Text="This is sample accorion content"/>
+                    <Label Text="This is sample accorion content"/>
+                    <Label Text="This is sample accorion content"/>
+                    <Label Text="This is sample accorion content"/>
+                    <Label Text="This is sample accorion content"/>
+                    <Label Text="This is sample accorion content"/>
+                    <Label Text="This is sample accorion content"/>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
