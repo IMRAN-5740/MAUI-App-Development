@@ -1,0 +1,1 @@
+E:\.Net MAUI Development\DeviceOrientationMAUI\DeviceOrientationMAUI\DeviceOrientationMAUI.csproj;x64

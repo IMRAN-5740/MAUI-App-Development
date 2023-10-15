@@ -31,6 +31,7 @@
                 <VerticalStackLayout Spacing="10"
                                      BackgroundColor="#eee"
                                      x:Name="itemsFunction">
+                    
                     <Label Text="This is sample accorion content"/>
                     <Label Text="This is sample accorion content"/>
                     <Label Text="This is sample accorion content"/>
