@@ -322,3 +322,4 @@ E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\obj\Debug\net7.0-wind
 E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\imran.scale-100.png
