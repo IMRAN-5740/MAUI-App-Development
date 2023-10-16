@@ -4,9 +4,11 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CustomFlyoutMAUI"
+    xmlns:controlsPage="clr-namespace:CustomFlyoutMAUI.Controls"
     Shell.FlyoutBehavior="Flyout"
     Title="Custom Flyout Design"
-    BackgroundColor="Red">
+    BackgroundColor="Red"
+    FlyoutIcon="imran.png">
 
 
     <!--<Shell.ItemTemplate>
@@ -28,43 +30,39 @@
     </Shell.ItemTemplate>-->
 
 
-    
+    <!--Start Flyout Header-->
     <Shell.FlyoutHeader>
         <Border BackgroundColor="#ddd" Stroke="Red" StrokeThickness="1">
-            <Grid ColumnDefinitions="Auto,*" Padding="20">
-
-                <Image Grid.Column="0"
-                    Source="imran.png"
-                    Aspect="AspectFill"
-                    HeightRequest="50"
-                    WidthRequest="50"/>
-
-                <Label Grid.Column="1" 
-                       Text="ReadLine Academy"
-                       FontSize="18"
-                       FontAttributes="Bold"
-                       TextColor="Gray"
-                       VerticalTextAlignment="Center" />
-            </Grid>
+            <controlsPage:CustomFlyoutHeaderContent/>
         </Border>
     </Shell.FlyoutHeader>
-
-    <Shell.FlyoutContent Padding="20" >
-        <Border BackgroundColor="gray" Stroke="Red" StrokeThickness="1">
-            <Label Text="This is Flyout Content"/>
-            
-         </Border>
-
-    </Shell.FlyoutContent>
-
-    <Shell.FlyoutFooter>
-        <Border BackgroundColor="gray" Stroke="Red" StrokeThickness="1">
-            <Label Text="This is Flyout Footer"/>
-
-        </Border>
-    </Shell.FlyoutFooter>
+    <!--End Flyout Header-->
 
     
+    <!--Start Flyout Content-->
+    
+    <Shell.FlyoutContent Padding="5" >
+        <Border BackgroundColor="gray" Stroke="Red" StrokeThickness="1">
+            <controlsPage:CustomFlyoutContent/>
+        </Border>
+
+    </Shell.FlyoutContent>
+    <!--End Flyout Content-->
+
+
+
+
+
+    <!--Start Flyout Footer -->
+
+    <Shell.FlyoutFooter>
+        <Border BackgroundColor="gray" Stroke="Red" >
+            <controlsPage:CustomFlyoutFooterContent/>
+        </Border>
+    </Shell.FlyoutFooter>
+    <!--End Flyout Footer-->
+
+
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"

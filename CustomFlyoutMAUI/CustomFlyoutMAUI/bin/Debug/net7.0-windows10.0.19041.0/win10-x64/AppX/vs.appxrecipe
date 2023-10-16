@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-16T09:20:53.673</Modified>
+      <Modified>2023-10-16T10:15:59.387</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-16T08:34:14.160</Modified>
+      <Modified>2023-10-16T10:15:59.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CustomFlyoutMAUI.runtimeconfig.json">
       <PackagePath>CustomFlyoutMAUI.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CustomFlyoutMAUI.dll">
       <PackagePath>CustomFlyoutMAUI.dll</PackagePath>
-      <Modified>2023-10-16T09:20:52.350</Modified>
+      <Modified>2023-10-16T10:15:57.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CustomFlyoutMAUI.exe</PackagePath>
-      <Modified>2023-10-16T09:20:52.365</Modified>
+      <Modified>2023-10-16T10:15:57.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CustomFlyoutMAUI.deps.json">
       <PackagePath>CustomFlyoutMAUI.deps.json</PackagePath>
-      <Modified>2023-10-16T08:34:13.492</Modified>
+      <Modified>2023-10-16T10:15:58.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

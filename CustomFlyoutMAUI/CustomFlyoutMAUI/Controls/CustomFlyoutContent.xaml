@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomFlyoutMAUI.Controls.CustomFlyoutContent">
+    <ScrollView Padding="5" Margin="0" VerticalOptions="Start">
+        <VerticalStackLayout>
+            <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="10" Padding="10" BackgroundColor="Green">
+                <Image 
+                                Grid.Column="0"
+                                Source="imran.png"
+                                Aspect="AspectFill"
+                                HeightRequest="25"
+                                WidthRequest="25"
+                                />
+                <Label 
+                                Grid.Column="1"
+                                Text="Content Menu 1"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                TextColor="White"
+                                />
+                <Label
+                                Grid.Column="2"
+                                Text=">"
+                                Scale="1.5"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                TextColor="White"
+                                />
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Grid.GestureRecognizers>
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="10" Padding="10">
+                <Image 
+                      Grid.Column="0"
+                      Source="imran.png"
+                      Aspect="AspectFill"
+                      HeightRequest="25"
+                      WidthRequest="25"
+                      />
+                <Label 
+                      Grid.Column="1"
+                      Text="Content Menu 2"
+                      FontSize="16"
+                      FontAttributes="Bold"
+                      TextColor="White"
+                      />
+                <Label
+                      Grid.Column="2"
+                      Text=">"
+                      Scale="1.5"
+                      FontSize="16"
+                      FontAttributes="Bold"
+                      TextColor="White"
+                      />
+               
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="10" Padding="10">
+                        <Image 
+                          Grid.Column="0"
+                          Source="imran.png"
+                          Aspect="AspectFill"
+                          HeightRequest="25"
+                          WidthRequest="25"
+                          />
+                            <Label 
+                          Grid.Column="1"
+                          Text="Content Menu 3"
+                          FontSize="16"
+                          FontAttributes="Bold"
+                          TextColor="White"
+                          />
+                <Label
+                          Grid.Column="2"
+                          Text=">"
+                          Scale="1.5"
+                          FontSize="16"
+                          FontAttributes="Bold"
+                          TextColor="White"
+                          />
+               
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>
