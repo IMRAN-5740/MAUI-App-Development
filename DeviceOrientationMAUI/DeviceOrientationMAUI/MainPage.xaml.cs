@@ -2,12 +2,13 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
+        
+        private readonly DeviceOrientationService _deviceOrientationService;
         public MainPage()
         {
             InitializeComponent();
             DeviceDisplay.Current.MainDisplayInfoChanged += Current_MainDisplayInfoChanged;
+            _deviceOrientationService = new DeviceOrientationService();
         }
 
         private void Current_MainDisplayInfoChanged(object sender, DisplayInfoChangedEventArgs e)
@@ -16,18 +17,16 @@
 
         }
 
-        private void OnCounterClicked(object sender,  EventArgs e)
+        private void orientationBtn_Clicked(object sender, EventArgs e)
         {
-            count++;
+            switch (DeviceDisplay.Current.MainDisplayInfo.Orientation)
+            {
+                case DisplayOrientation.Landscape: _deviceOrientationService.SetDeviceOrientation(DisplayOrientation.Portrait); break;
+                case DisplayOrientation.Portrait: _deviceOrientationService.SetDeviceOrientation(DisplayOrientation.Landscape); break;
+            }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
-            Shell.Current.DisplayAlert("Orientation :", DeviceDisplay.Current.MainDisplayInfo.Orientation.ToString(), "Ok");
-
+            // Note: DeviceDisplay.Current.MainDisplayInfoChanged does not get fire when we change the orientation programatically
+            // We can call the event handler method from here explicitely
         }
     }
 }

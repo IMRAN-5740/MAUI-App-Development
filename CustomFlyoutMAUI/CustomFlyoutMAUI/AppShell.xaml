@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CustomFlyoutMAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CustomFlyoutMAUI"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Custom FlyOut Design">
+
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <VerticalStackLayout Spacing="20">
+
+              
+                <Label Text="{Binding Title }"
+                 FontSize="20"
+                 FontAttributes="Bold"
+                 TextColor="Green"/>
+                <Image Source="{Binding FlyoutIcon}"
+                 Aspect="AspectFill"
+                 HeightRequest="20"
+                 WidthRequest="20"
+                       HorizontalOptions="Start"/>
+            </VerticalStackLayout>
+          
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Route="ParentRoute}" >
+        
+    
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    
+        <ShellContent
+        Icon="dotnet_bot.png"
+        Title="Home Menu 1"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage1" />
+
+        <ShellContent
+        Icon="dotnet_bot.png"
+        Title="Home Menu 2"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage2" />
+
+        <ShellContent
+        Icon="dotnet_bot.png"
+        Title="Home Menu 3"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage3" />
+
+    </FlyoutItem>
+</Shell>

@@ -1,0 +1,1 @@
+E:\.Net MAUI Development\CustomFlyoutMAUI\CustomFlyoutMAUI\CustomFlyoutMAUI.csproj;x64
