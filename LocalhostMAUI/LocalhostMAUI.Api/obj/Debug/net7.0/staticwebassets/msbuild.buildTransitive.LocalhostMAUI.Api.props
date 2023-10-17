@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\LocalhostMAUI.Api.props" />
+</Project>
