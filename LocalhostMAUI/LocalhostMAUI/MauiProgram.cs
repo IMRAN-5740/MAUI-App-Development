@@ -16,9 +16,9 @@ namespace LocalhostMAUI
                 });
 
 #if DEBUG
-		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
-            //builder.Services.AddHttpClient("Api",   options=>options.BaseAddress = new Uri("https://localhost:7209/WeatherForecast"));
+
             return builder.Build();
         }
     }

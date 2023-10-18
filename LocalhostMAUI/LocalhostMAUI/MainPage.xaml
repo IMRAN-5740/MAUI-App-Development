@@ -30,7 +30,7 @@
 
             <Button
                 x:Name="callApiButton"
-                Text="Click me"
+                Text="Call for API"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="callApiButton_Clicked"
                 HorizontalOptions="Center" />
