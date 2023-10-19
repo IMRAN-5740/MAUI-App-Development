@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="BMICalculator.MainPage">
+
+    <Grid RowDefinitions="*,Auto,Auto" >
+        <Border Grid.Row="0"
+                Padding="20"
+                StrokeThickness="0"
+                StrokeShape="RoundRectangle 0,0,25,25">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#ea655d"
+                                  Offset="0.1"/>
+                    <GradientStop Color="#e95263"
+                                  Offset="1.0"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <VerticalStackLayout Spacing="20">
+                <Label Text="GENDER"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       />
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+                    <Border Grid.Column="0"
+                            BackgroundColor="White"
+                            StrokeShape="RoundRectangle 25"
+                            Padding="10,10"
+                            StrokeThickness="0"
+                            >
+                        <HorizontalStackLayout HorizontalOptions="Center"
+                                               Spacing="7">
+                            <Image Source="male"
+                                   HeightRequest="20"
+                                   WidthRequest="20">
+                                <Image.Behaviors>
+                                    <toolkit:IconTintColorBehavior TintColor="#e95263" />
+                                </Image.Behaviors>
+                            </Image>
+                            <Label Text="Male"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   TextColor="#e95263"
+                                   />
+                        </HorizontalStackLayout>
+                    </Border>
+                    <Border Grid.Column="1"
+                             BackgroundColor="#f2a59e"
+                             StrokeShape="RoundRectangle 25"
+                             Padding="10,10"
+                             StrokeThickness="0"
+                             >
+                         <HorizontalStackLayout HorizontalOptions="Center"
+                                                    Spacing="7">
+                                <Image Source="female"
+                                        HeightRequest="20"
+                                        WidthRequest="20">
+                                    <Image.Behaviors>
+                                        <toolkit:IconTintColorBehavior TintColor="White" />
+                                    </Image.Behaviors>
+                                </Image>
+                                <Label Text="Female"
+                                        FontSize="20"
+                                        FontAttributes="Bold"
+                                        TextColor="White"
+                                        />
+                            </HorizontalStackLayout>
+                    </Border>
+                </Grid>
+
+                <Label Text="HEIGHT (1 inch=2.54 cm)"
+                     TextColor="White"
+                     HorizontalOptions="Center"
+                     FontAttributes="Bold"
+                       Margin="0,20,0,0"
+                 />
+                <Border Grid.Column="1"
+                             BackgroundColor="#f2a59e"
+                             StrokeShape="RoundRectangle 25"
+                             Padding="30,10"
+                             StrokeThickness="0"
+                             HorizontalOptions="Center" >
+
+                    <Label Text="{Binding Source={x:Reference heightSlider},
+                        Path=Value,
+                        StringFormat='{0:F0} CM'}"
+                             TextColor="White"
+                             HorizontalOptions="Center"
+                             FontAttributes="Bold"
+                              Margin="0,3,0,0"
+                                />
+                </Border>
+                
+                <Slider x:Name="heightSlider"
+                         ThumbColor="White"
+                         Value="50"
+                         Maximum="250"
+                         Minimum="10"
+                         MinimumTrackColor="Gray"
+                         MaximumTrackColor="White"/>
+
+
+                <Label Text="WEIGHT"
+                    
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                />
+                <Border Grid.Column="1"
+                    BackgroundColor="#f2a59e"
+                    StrokeShape="RoundRectangle 25"
+                    Padding="30,10"
+                    StrokeThickness="0"
+                    HorizontalOptions="Center" >
+
+                    <Label Text="{Binding Source={x:Reference weightSlider},
+                                   Path=Value,
+                                   StringFormat='{0:F0} KG'}"
+                                    TextColor="White"
+                                    HorizontalOptions="Center"
+                                    FontAttributes="Bold"
+                                    Margin="0,3,0,0"
+                                       />
+                </Border>
+
+                <Slider x:Name="weightSlider"
+                        ThumbColor="White"
+                        Value="50"
+                        Maximum="120"
+                        Minimum="10"
+                        MinimumTrackColor="Gray"
+                        MaximumTrackColor="White"/>
+
+
+
+               
+            </VerticalStackLayout>
+        </Border>
+
+        <ImageButton Grid.Row="1"
+            Source="arrowright"
+              HeightRequest="150"
+              WidthRequest="150"
+              CornerRadius="55"
+                     
+              BackgroundColor="White"
+              Padding="30"
+              VerticalOptions="End"
+              HorizontalOptions="End"
+              Margin="0,-75,0,0">
+
+            <ImageButton.Shadow>
+                <Shadow
+                     Brush="#f2a59e"
+                    Radius="55"
+                    Offset="5,5"
+                    />
+            </ImageButton.Shadow>
+            <ImageButton.Behaviors>
+                <toolkit:IconTintColorBehavior TintColor="#e95263" />
+            </ImageButton.Behaviors>
+        </ImageButton>
+        
+        <VerticalStackLayout Grid.Row="2"
+                             Padding="25">
+            <Label Text="Test"/>
+        </VerticalStackLayout>
+
+    </Grid>
+
+</ContentPage>

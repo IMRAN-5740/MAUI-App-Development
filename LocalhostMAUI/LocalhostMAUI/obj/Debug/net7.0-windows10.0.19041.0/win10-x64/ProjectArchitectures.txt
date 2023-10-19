@@ -1,1 +1,0 @@
-E:\.Net MAUI Development\LocalhostMAUI\LocalhostMAUI\LocalhostMAUI.csproj;x64
