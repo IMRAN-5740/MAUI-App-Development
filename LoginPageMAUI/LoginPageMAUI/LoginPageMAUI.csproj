@@ -50,11 +50,14 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\company_logo.jpg" />
+	  <None Remove="Resources\Images\imran.png" />
 	  <None Remove="Resources\Images\lock_solid.svg" />
+	  <None Remove="Resources\Images\readline.jpg" />
 	  <None Remove="Resources\Images\user_solid.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Maui" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 

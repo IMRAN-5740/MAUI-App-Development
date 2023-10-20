@@ -155,3 +155,7 @@ gifdecoder.aar
 glide.aar
 GoogleGson.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+CommunityToolkit.Maui.Core.dll
+CommunityToolkit.Maui.dll
+CommunityToolkit.Maui.Core.aar
+CommunityToolkit.Maui.aar
