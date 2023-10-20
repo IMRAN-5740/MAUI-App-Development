@@ -1,10 +1,12 @@
 ﻿using LoginPageMAUI.Handlers;
+using LoginPageMAUI.Models;
 using Microsoft.Maui.Platform;
 
 namespace LoginPageMAUI
 {
     public partial class App : Application
     {
+        public static UserBasicInfo UserDetails;
         public App()
         {
             InitializeComponent();

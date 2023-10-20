@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
 using LoginPageMAUI.ViewModels.StartUp;
+using LoginPageMAUI.Views.Dashboard;
+using LoginPageMAUI.ViewModels.Dashboard;
 
 namespace LoginPageMAUI
 {
@@ -20,9 +22,15 @@ namespace LoginPageMAUI
 
             //Views
             builder.Services.AddSingleton<LoginPage>();
+            builder.Services.AddSingleton<DashboardPage>();
+            builder.Services.AddSingleton<LoadingPage>();
+
 
             //ViewModels
             builder.Services.AddSingleton<LoginPageViewModel>();
+            builder.Services.AddSingleton<DashboardPageViewModel>();
+            builder.Services.AddSingleton<LoadingPageViewModel>();
+
 #if DEBUG
             builder.Logging.AddDebug();
 #endif

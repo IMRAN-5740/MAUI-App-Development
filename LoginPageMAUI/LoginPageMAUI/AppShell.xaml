@@ -4,13 +4,58 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:startupPages="clr-namespace:LoginPageMAUI.Views.StartUp"
-    xmlns:local="clr-namespace:LoginPageMAUI"
-    Shell.FlyoutBehavior="Disabled"
-    Shell.TabBarIsVisible="False">
-
+    xmlns:dashboardPages="clr-namespace:LoginPageMAUI.Views.Dashboard"
+    xmlns:models="clr-namespace:LoginPageMAUI.Models"
     
+    
+    xmlns:local="clr-namespace:LoginPageMAUI"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="False"
+    BackgroundColor="Bisque">
+
     <ShellContent
-        Title="Login Page" FlyoutItemIsVisible="False" Shell.FlyoutBehavior="Disabled"
+       FlyoutItemIsVisible="False"  Shell.FlyoutBehavior="Disabled"
+      ContentTemplate="{DataTemplate startupPages:LoadingPage}"
+      Route="LoadingPage"/>
+
+
+    <ShellContent
+        Title="Login Page" FlyoutItemIsVisible="False"  Shell.FlyoutBehavior="Disabled"
         ContentTemplate="{DataTemplate startupPages:LoginPage}"
-        Route="LoginPage" />
+        Route="LoginPage"/>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Route="DashboardPage">
+
+        <ShellContent
+            Title="Dashboard"
+            Icon="{x:Static models:Icons.Dashboard}"
+            ContentTemplate="{DataTemplate dashboardPages:DashboardPage}"
+            />
+        <ShellContent
+                
+            Title="People"
+            Icon="{x:Static models:Icons.Peopele}"
+            
+            ContentTemplate="{DataTemplate dashboardPages:DashboardPage}"
+          />
+        <ShellContent
+                    
+            Title="Contact Us"
+            Icon="{x:Static models:Icons.ContactUs}"
+            
+            ContentTemplate="{DataTemplate dashboardPages:DashboardPage}"
+           />
+        <ShellContent
+            Title="About Us"
+            Icon="{x:Static models:Icons.AboutUs}"
+            
+            ContentTemplate="{DataTemplate dashboardPages:DashboardPage}"
+           />
+    </FlyoutItem>
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="20">
+            <Button Text="Sign Out" Command="{Binding SignOutCommand}"/>
+
+        </StackLayout>
+    </Shell.FlyoutFooter>
 </Shell>

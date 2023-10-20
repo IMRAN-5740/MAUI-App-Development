@@ -13,7 +13,7 @@ namespace LoginPageMAUI.ViewModels
         private bool _isBusy;
 
         [ObservableProperty]
-        private bool _title;
+        private string _title;
 
     }
 }

@@ -4,10 +4,12 @@
              
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
               xmlns:handlers="clr-namespace:LoginPageMAUI.Handlers"
+              xmlns:models="clr-namespace:LoginPageMAUI.Models"
+             
               x:Class="LoginPageMAUI.Views.StartUp.LoginPage"
               Shell.NavBarIsVisible="False"
               BackgroundColor="Bisque"
-             Title="LoginPage">
+             Title="Login Page">
 
     <VerticalStackLayout
       Spacing="25"
@@ -43,7 +45,7 @@
             </Frame>
 
             <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="Gray" HorizontalOptions="FillAndExpand">
-                <handlers:BorderLessEntry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="User Name" TextColor="Black" PlaceholderColor="#e95263"  Keyboard="Email"/>
+                <handlers:BorderLessEntry Text="{Binding Email}" Margin="20,0,0,0"  VerticalOptions="Center" Placeholder="User Name" TextColor="Black" PlaceholderColor="#e95263"  Keyboard="Email"/>
             </Frame>
         </StackLayout>
 
@@ -57,7 +59,7 @@
             </Frame>
 
             <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="Gray" HorizontalOptions="FillAndExpand">
-                <handlers:BorderLessEntry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" TextColor="Black" PlaceholderColor="#e95263"    IsPassword="True" IsSpellCheckEnabled="True" />
+                <handlers:BorderLessEntry Text="{Binding Password}}" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" TextColor="Black" PlaceholderColor="#e95263"    IsPassword="True" IsSpellCheckEnabled="True" />
             </Frame>
         </StackLayout>
 

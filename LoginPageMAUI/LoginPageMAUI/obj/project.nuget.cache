@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/uYduFJZN0Z9mAGTRYVta/Z+FTP2nN9c7IbrarHfgMzqqCDBEx1I5tTL80hyftth9ZFj8p+Aol7a65clpPkAEw==",
+  "dgSpecHash": "KRsmF215k5odBI/eVyyU7NRt4KAcfXJ3uXmGaWVzO9V0YaxEaAflmW+tw7RP+V2bP5lWL26vgw6UlmjWPSQkpQ==",
   "success": true,
   "projectFilePath": "E:\\.Net MAUI Development\\LoginPageMAUI\\LoginPageMAUI\\LoginPageMAUI.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.92\\microsoft.maui.graphics.win2d.winui.desktop.7.0.92.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",

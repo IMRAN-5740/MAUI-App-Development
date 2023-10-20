@@ -49,9 +49,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\about.svg" />
+	  <None Remove="Resources\Images\about_us.png" />
 	  <None Remove="Resources\Images\company_logo.jpg" />
+	  <None Remove="Resources\Images\contact_us.png" />
+	  <None Remove="Resources\Images\dashboard.png" />
+	  <None Remove="Resources\Images\homepage.svg" />
 	  <None Remove="Resources\Images\imran.png" />
 	  <None Remove="Resources\Images\lock_solid.svg" />
+	  <None Remove="Resources\Images\people.svg" />
+	  <None Remove="Resources\Images\phone_solid.svg" />
 	  <None Remove="Resources\Images\readline.jpg" />
 	  <None Remove="Resources\Images\user_solid.svg" />
 	</ItemGroup>
@@ -60,9 +67,16 @@
 		<PackageReference Include="CommunityToolkit.Maui" Version="6.0.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\Dashboard\DashboardPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\StartUp\LoadingPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\StartUp\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

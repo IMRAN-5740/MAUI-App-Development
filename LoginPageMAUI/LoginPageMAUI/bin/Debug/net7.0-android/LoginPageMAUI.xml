@@ -4,6 +4,33 @@
         <name>LoginPageMAUI</name>
     </assembly>
     <members>
+        <member name="T:LoginPageMAUI.ViewModels.AppShellViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:LoginPageMAUI.ViewModels.AppShellViewModel.signOutCommand">
+            <summary>The backing field for <see cref="P:LoginPageMAUI.ViewModels.AppShellViewModel.SignOutCommand"/>.</summary>
+        </member>
+        <member name="P:LoginPageMAUI.ViewModels.AppShellViewModel.SignOutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LoginPageMAUI.ViewModels.AppShellViewModel.SignOut"/>.</summary>
+        </member>
+        <member name="T:LoginPageMAUI.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:LoginPageMAUI.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:LoginPageMAUI.ViewModels.BaseViewModel._isBusy"/>
+        </member>
+        <member name="P:LoginPageMAUI.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:LoginPageMAUI.ViewModels.BaseViewModel._title"/>
+        </member>
+        <member name="T:LoginPageMAUI.ViewModels.StartUp.LoginPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:LoginPageMAUI.ViewModels.StartUp.LoginPageViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:LoginPageMAUI.ViewModels.StartUp.LoginPageViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:LoginPageMAUI.ViewModels.StartUp.LoginPageViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LoginPageMAUI.ViewModels.StartUp.LoginPageViewModel.Login"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
@@ -102,6 +129,30 @@
             <param name = "length">The duration, in milliseconds, of the animation</param>
             <param name = "easing">The easing function to be used in the animation</param>
             <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
         </member>
     </members>
 </doc>
