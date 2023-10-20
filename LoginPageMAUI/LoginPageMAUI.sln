@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPageMAUI", "LoginPageMAUI\LoginPageMAUI.csproj", "{028CBB7E-20C2-4EF6-A04C-688F7A763692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{028CBB7E-20C2-4EF6-A04C-688F7A763692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028CBB7E-20C2-4EF6-A04C-688F7A763692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028CBB7E-20C2-4EF6-A04C-688F7A763692}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{028CBB7E-20C2-4EF6-A04C-688F7A763692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028CBB7E-20C2-4EF6-A04C-688F7A763692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028CBB7E-20C2-4EF6-A04C-688F7A763692}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC906AD4-5A1D-4CB1-904D-BC573C60C0DF}
+	EndGlobalSection
+EndGlobal
