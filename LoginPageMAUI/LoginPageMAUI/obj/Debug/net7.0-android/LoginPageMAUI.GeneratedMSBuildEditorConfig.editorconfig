@@ -43,3 +43,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LoginPageMAUI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/.Net MAUI Development/LoginPageMAUI/LoginPageMAUI/Views/StartUp/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginPageMAUI.Views.StartUp.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StartUp\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StartUp\LoginPage.xaml

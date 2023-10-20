@@ -8,7 +8,7 @@ namespace LoginPageMAUI
         public App()
         {
             InitializeComponent();
-            //Border less entry
+            //BorderLess Entry
             Microsoft.Maui.Handlers.EntryHandler.Mapper.AppendToMapping(nameof(BorderLessEntry), (handler, view) =>
             {
                 if (view is BorderLessEntry)
@@ -21,7 +21,7 @@ namespace LoginPageMAUI
                 }
             });
            
-            MainPage = new AppShell();
+           MainPage = new AppShell();
         }
     }
 }

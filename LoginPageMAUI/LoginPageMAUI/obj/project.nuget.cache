@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dd/l9iUBaeOFPqXcdTDxGDJkkRxyYMW9cSxaoIuDhhMyo9y+YlIOuFWj6kerCSUCxead8ZbB78lMp4rij3Mc4Q==",
+  "dgSpecHash": "/uYduFJZN0Z9mAGTRYVta/Z+FTP2nN9c7IbrarHfgMzqqCDBEx1I5tTL80hyftth9ZFj8p+Aol7a65clpPkAEw==",
   "success": true,
   "projectFilePath": "E:\\.Net MAUI Development\\LoginPageMAUI\\LoginPageMAUI\\LoginPageMAUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\imran\\.nuget\\packages\\communitytoolkit.maui\\6.0.0\\communitytoolkit.maui.6.0.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\communitytoolkit.maui.core\\6.0.0\\communitytoolkit.maui.core.6.0.0.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

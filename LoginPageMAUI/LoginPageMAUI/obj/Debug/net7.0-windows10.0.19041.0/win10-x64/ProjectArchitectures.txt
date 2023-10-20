@@ -1,1 +1,0 @@
-E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\LoginPageMAUI.csproj;x64

@@ -82,7 +82,7 @@ target triple = "aarch64-unknown-linux-android"
 @__app_environment_variables_n_2.4 = internal constant [15 x i8] c"MONO_LOG_LEVEL\00", align 1
 @__app_environment_variables_v_2.5 = internal constant [5 x i8] c"info\00", align 1
 @__app_environment_variables_n_3.6 = internal constant [17 x i8] c"XAMARIN_BUILD_ID\00", align 1
-@__app_environment_variables_v_3.7 = internal constant [37 x i8] c"128ef121-42b0-4ef2-9fa4-75597bbe1ee1\00", align 1
+@__app_environment_variables_v_3.7 = internal constant [37 x i8] c"672ca7d0-f09b-4594-a883-572eedf11054\00", align 1
 @__app_environment_variables_n_4.8 = internal constant [28 x i8] c"XA_HTTP_CLIENT_HANDLER_TYPE\00", align 1
 @__app_environment_variables_v_4.9 = internal constant [42 x i8] c"Xamarin.Android.Net.AndroidMessageHandler\00", align 1
 @__app_environment_variables_n_5.10 = internal constant [29 x i8] c"__XA_PACKAGE_NAMING_POLICY__\00", align 1
@@ -123,7 +123,7 @@ target triple = "aarch64-unknown-linux-android"
 	i32 3, ; package_naming_policy
 	i32 12, ; environment_variable_count
 	i32 0, ; system_property_count
-	i32 271, ; number_of_assemblies_in_apk
+	i32 272, ; number_of_assemblies_in_apk
 	i32 68, ; bundled_assembly_name_width
 	i32 2, ; number_of_assembly_store_files
 	i32 32, ; number_of_dso_cache_entries
@@ -644,10 +644,11 @@ target triple = "aarch64-unknown-linux-android"
 @__XamarinAndroidBundledAssembly_name_268 = internal global [68 x i8] zeroinitializer, align 1
 @__XamarinAndroidBundledAssembly_name_269 = internal global [68 x i8] zeroinitializer, align 1
 @__XamarinAndroidBundledAssembly_name_270 = internal global [68 x i8] zeroinitializer, align 1
+@__XamarinAndroidBundledAssembly_name_271 = internal global [68 x i8] zeroinitializer, align 1
 
 
 ; Bundled assembly name buffers, all 68 bytes long
-@bundled_assemblies = local_unnamed_addr global [271 x %struct.XamarinAndroidBundledAssembly] [
+@bundled_assemblies = local_unnamed_addr global [272 x %struct.XamarinAndroidBundledAssembly] [
 	; 0
 	%struct.XamarinAndroidBundledAssembly {
 		i32 -1, ; apk_fd
@@ -3086,6 +3087,15 @@ target triple = "aarch64-unknown-linux-android"
 		i8* null, ; data
 		i32 68, ; name_length
 		i8* getelementptr inbounds ([68 x i8], [68 x i8]* @__XamarinAndroidBundledAssembly_name_270, i32 0, i32 0); name
+	}, 
+	; 271
+	%struct.XamarinAndroidBundledAssembly {
+		i32 -1, ; apk_fd
+		i32 0, ; data_offset
+		i32 0, ; data_size
+		i8* null, ; data
+		i32 68, ; name_length
+		i8* getelementptr inbounds ([68 x i8], [68 x i8]* @__XamarinAndroidBundledAssembly_name_271, i32 0, i32 0); name
 	}
 ], align 8; end of 'bundled_assemblies' array
 

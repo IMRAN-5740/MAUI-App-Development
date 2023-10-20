@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+              xmlns:handlers="clr-namespace:LoginPageMAUI.Handlers"
+              x:Class="LoginPageMAUI.Views.StartUp.LoginPage"
+              Shell.NavBarIsVisible="False"
+              BackgroundColor="Bisque"
+             Title="LoginPage">
+
+    <VerticalStackLayout
+      Spacing="25"
+      Padding="30,0"
+      VerticalOptions="Center">
+
+
+        <StackLayout>
+            <Frame ZIndex="1" HasShadow="True" BorderColor="Gray" HorizontalOptions="Fill" HeightRequest="150" WidthRequest="150" CornerRadius="75">
+                <Image Source="readline" HeightRequest="150" WidthRequest="150">
+
+                </Image>
+            </Frame>
+        </StackLayout>
+        <!--<Image Source="readline" HeightRequest="130"    WidthRequest="130"/>
+      <ImageButton CornerRadius="25" HeightRequest="130" WidthRequest="130" Source="imran" BorderColor="Red" >-->
+
+        <!--</ImageButton>-->
+
+        <VerticalStackLayout Spacing="10">
+            <Label Text="Welcome to ReadLine Academy" FontSize="20" HorizontalTextAlignment="Center" TextColor="Maroon"/>
+
+            <Label Text="Login to your account" FontSize="18" HorizontalTextAlignment="Center" TextColor="Maroon"/>
+        </VerticalStackLayout>
+
+        <StackLayout Orientation="Horizontal" >
+            <Frame ZIndex="1" HasShadow="True" BorderColor="White" HorizontalOptions="Fill" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                <Image Source="user_solid.svg" HeightRequest="20" WidthRequest="20">
+                    <Image.Behaviors>
+                        <toolkit:IconTintColorBehavior TintColor="#e95263" />
+                    </Image.Behaviors>
+                </Image>
+            </Frame>
+
+            <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="Gray" HorizontalOptions="FillAndExpand">
+                <handlers:BorderLessEntry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="User Name" TextColor="Black" PlaceholderColor="#e95263"  Keyboard="Email"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Frame ZIndex="1" HasShadow="True" BorderColor="White" HorizontalOptions="Fill"  HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                <Image Source="lock_solid.svg" HeightRequest="20" WidthRequest="20">
+                    <Image.Behaviors>
+                        <toolkit:IconTintColorBehavior TintColor="#e95263" />
+                    </Image.Behaviors>
+                </Image>
+            </Frame>
+
+            <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="Gray" HorizontalOptions="FillAndExpand">
+                <handlers:BorderLessEntry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" TextColor="Black" PlaceholderColor="#e95263"    IsPassword="True" IsSpellCheckEnabled="True" />
+            </Frame>
+        </StackLayout>
+
+
+
+
+        <Button  Text="Sign In" WidthRequest="100" CornerRadius="20" HorizontalOptions="Center" BackgroundColor="#0792ef"
+                 Command="{Binding LoginCommand}"/>
+
+        <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+            <Label Text="Don't have an account?" TextColor="Gray"/>
+            <Label Text="Sign Up here " TextColor="#50b3f2"/>
+        </StackLayout>
+    </VerticalStackLayout>
+   
+</ContentPage>
