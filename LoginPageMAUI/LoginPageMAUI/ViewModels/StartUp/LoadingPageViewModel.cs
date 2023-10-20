@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LoginPageMAUI.Views.Dashboard;
+using LoginPageMAUI.Controls;
+
 using LoginPageMAUI.Views.StartUp;
+using Newtonsoft.Json;
+using LoginPageMAUI.Models;
 
 namespace LoginPageMAUI.ViewModels.StartUp
 {
@@ -12,7 +16,7 @@ namespace LoginPageMAUI.ViewModels.StartUp
     {
         public LoadingPageViewModel()
         {
-            
+            CheckUserLoginDetail();
         }
         private async void CheckUserLoginDetail()
         {
@@ -21,12 +25,16 @@ namespace LoginPageMAUI.ViewModels.StartUp
             if(string.IsNullOrWhiteSpace(userDetailStr))
             {
                 //navigate to  Login Page
-                await Shell.Current.GoToAsync(nameof(LoginPage));
+                await Shell.Current.GoToAsync($"//{ nameof(LoginPage)}");
             }
             else
             {
                 //navigate to dashboard
-                await Shell.Current.GoToAsync(nameof(DashboardPage));
+                var userInfo=JsonConvert.DeserializeObject<UserBasicInfo>(userDetailStr);
+                App.UserDetails=userInfo;
+                AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
+                await Shell.Current.GoToAsync($"//{nameof(DashboardPage)}");
+            
             }
          }
     }

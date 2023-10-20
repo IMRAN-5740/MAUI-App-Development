@@ -1,6 +1,8 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using LoginPageMAUI.Models;
+using LoginPageMAUI.Controls;
+
 using LoginPageMAUI.Views.Dashboard;
 using Newtonsoft.Json;
 using System;
@@ -30,7 +32,7 @@ namespace LoginPageMAUI.ViewModels.StartUp
          async void Login()
         {
 
-            if(string.IsNullOrWhiteSpace(Email) && string.IsNullOrWhiteSpace(Password) )
+            if(!string.IsNullOrWhiteSpace(Email) && !string.IsNullOrWhiteSpace(Password) )
             {
                 //Calling api
                 var userDetails = new UserBasicInfo()
@@ -47,6 +49,7 @@ namespace LoginPageMAUI.ViewModels.StartUp
                 var userDetailsStr=JsonConvert.SerializeObject(userDetails);
                 Preferences.Set(nameof(App.UserDetails), userDetailsStr);
                 App.UserDetails = userDetails;
+                AppShell.Current.FlyoutHeader= new FlyoutHeaderControl();
                 await Shell.Current.GoToAsync($"//{nameof(DashboardPage)}");
             }
            

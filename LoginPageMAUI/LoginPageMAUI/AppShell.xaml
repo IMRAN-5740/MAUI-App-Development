@@ -5,6 +5,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:startupPages="clr-namespace:LoginPageMAUI.Views.StartUp"
     xmlns:dashboardPages="clr-namespace:LoginPageMAUI.Views.Dashboard"
+    xmlns:controlsPages="clr-namespace:LoginPageMAUI.Controls"
+    
     xmlns:models="clr-namespace:LoginPageMAUI.Models"
     
     
@@ -12,7 +14,12 @@
     Shell.FlyoutBehavior="Flyout"
     Shell.TabBarIsVisible="False"
     BackgroundColor="Bisque">
-
+    
+    
+    <Shell.FlyoutHeader>
+        <controlsPages:FlyoutHeaderControl/>
+    </Shell.FlyoutHeader>
+    
     <ShellContent
        FlyoutItemIsVisible="False"  Shell.FlyoutBehavior="Disabled"
       ContentTemplate="{DataTemplate startupPages:LoadingPage}"

@@ -1016,3 +1016,4 @@ E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-android\re
 E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable\about_us.png
 E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable\contact_us.png
 E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable\dashboard.png
+E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-android\android\assets\Newtonsoft.Json.dll

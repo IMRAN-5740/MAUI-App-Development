@@ -18,6 +18,8 @@ namespace LoginPageMAUI.ViewModels
             {
                 Preferences.Remove(nameof(App.UserDetails));
             }
+            
+
             await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
         }
     }
