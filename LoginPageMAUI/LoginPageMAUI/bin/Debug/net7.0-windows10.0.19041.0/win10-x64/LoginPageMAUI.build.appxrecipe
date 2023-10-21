@@ -607,6 +607,15 @@
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\communitytoolkit.maui\6.0.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\communitytoolkit.maui.core\6.0.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\communitytoolkit.mvvm\8.2.1\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -685,6 +694,12 @@
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\imran\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
@@ -723,6 +738,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-100.png">
+      <PackagePath>about.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-125.png">
+      <PackagePath>about.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-150.png">
+      <PackagePath>about.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-200.png">
+      <PackagePath>about.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-400.png">
+      <PackagePath>about.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\about_us.scale-100.png">
+      <PackagePath>about_us.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
@@ -865,6 +898,12 @@
     <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\company_logo.scale-100.jpg">
       <PackagePath>company_logo.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contact_us.scale-100.png">
+      <PackagePath>contact_us.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dashboard.scale-100.png">
+      <PackagePath>dashboard.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -880,6 +919,24 @@
     <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\homepage.scale-100.png">
+      <PackagePath>homepage.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\homepage.scale-125.png">
+      <PackagePath>homepage.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\homepage.scale-150.png">
+      <PackagePath>homepage.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\homepage.scale-200.png">
+      <PackagePath>homepage.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\homepage.scale-400.png">
+      <PackagePath>homepage.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\imran.scale-100.png">
+      <PackagePath>imran.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lock_solid.scale-100.png">
       <PackagePath>lock_solid.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -894,6 +951,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lock_solid.scale-400.png">
       <PackagePath>lock_solid.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\people.scale-100.png">
+      <PackagePath>people.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\people.scale-125.png">
+      <PackagePath>people.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\people.scale-150.png">
+      <PackagePath>people.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\people.scale-200.png">
+      <PackagePath>people.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\people.scale-400.png">
+      <PackagePath>people.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\phone_solid.scale-100.png">
+      <PackagePath>phone_solid.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\phone_solid.scale-125.png">
+      <PackagePath>phone_solid.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\phone_solid.scale-150.png">
+      <PackagePath>phone_solid.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\phone_solid.scale-200.png">
+      <PackagePath>phone_solid.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\phone_solid.scale-400.png">
+      <PackagePath>phone_solid.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\readline.scale-100.jpg">
+      <PackagePath>readline.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_solid.scale-100.png">
       <PackagePath>user_solid.scale-100.png</PackagePath>

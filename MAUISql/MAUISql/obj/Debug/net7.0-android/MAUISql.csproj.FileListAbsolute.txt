@@ -461,7 +461,6 @@ E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\typemaps.x86_64.ll
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\AndroidManifest.xml
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\AndroidManifest.xml
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\__environment__.txt
@@ -470,7 +469,6 @@ E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\bin\mono.android.jar
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\static.flag
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\buildid.txt
-E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\environment.x86_64.ll
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\src\androidx\activity\ktx\R.java
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\src\androidx\activity\R.java
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\src\androidx\annotation\experimental\R.java
@@ -950,12 +948,6 @@ E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\src\mo
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\src\mono\MonoPackageManager_Resources.java
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\bin\packaged_resources
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\src\com\companyname\mauisql\R.java
-E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.ll
-E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\typemaps.x86_64.o
-E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\environment.x86_64.o
-E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
-E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
-E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\bin\classes.dex
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\bin\classes2.dex
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -979,3 +971,11 @@ E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.ll
+E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\environment.arm64-v8a.ll
+E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.ll
+E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.o
+E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\environment.arm64-v8a.o
+E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.o
+E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\android\jni_remap.arm64-v8a.o
+E:\.Net MAUI Development\MAUISql\MAUISql\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

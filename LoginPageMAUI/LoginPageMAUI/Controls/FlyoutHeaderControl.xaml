@@ -3,9 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LoginPageMAUI.Controls.FlyoutHeaderControl"
              Padding="20">
-    
+
+    <StackLayout Orientation="Horizontal" Spacing="10">
         <Label x:Name="lblUserName" FontSize="22" FontAttributes="Bold"/>
-        <Label x:Name="lblUserEmail" FontSize="15"/>
+        <Label x:Name="lblUserRoleText" VerticalTextAlignment="Center" FontAttributes="Bold" TextColor="Maroon" FontSize="10"/>
+    </StackLayout>
+    
+    <Label x:Name="lblUserEmail" TextColor="Green" FontSize="15"/>
        
-          
+
 </StackLayout>

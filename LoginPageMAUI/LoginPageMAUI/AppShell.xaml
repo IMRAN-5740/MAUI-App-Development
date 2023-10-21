@@ -31,7 +31,7 @@
         ContentTemplate="{DataTemplate startupPages:LoginPage}"
         Route="LoginPage"/>
 
-    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Route="DashboardPage">
+    <!--<FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Route="DashboardPage">
 
         <ShellContent
             Title="Dashboard"
@@ -58,7 +58,7 @@
             
             ContentTemplate="{DataTemplate dashboardPages:DashboardPage}"
            />
-    </FlyoutItem>
+    </FlyoutItem>-->
     <Shell.FlyoutFooter>
         <StackLayout Padding="20">
             <Button Text="Sign Out" Command="{Binding SignOutCommand}"/>

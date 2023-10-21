@@ -9,6 +9,7 @@ using LoginPageMAUI.Controls;
 using LoginPageMAUI.Views.StartUp;
 using Newtonsoft.Json;
 using LoginPageMAUI.Models;
+using LoginPageMAUI.Models.SD;
 
 namespace LoginPageMAUI.ViewModels.StartUp
 {
@@ -32,10 +33,12 @@ namespace LoginPageMAUI.ViewModels.StartUp
                 //navigate to dashboard
                 var userInfo=JsonConvert.DeserializeObject<UserBasicInfo>(userDetailStr);
                 App.UserDetails=userInfo;
-                AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
-                await Shell.Current.GoToAsync($"//{nameof(DashboardPage)}");
-            
+
+
+              await AppConstant.AddFlyoutMenusDetails();
+
+               
             }
-         }
+        }
     }
 }

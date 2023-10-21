@@ -14,7 +14,7 @@
     <VerticalStackLayout
       Spacing="25"
       Padding="30,0"
-      VerticalOptions="Center">
+      VerticalOptions="Start">
 
 
         <StackLayout>
@@ -59,7 +59,7 @@
             </Frame>
 
             <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="Gray" HorizontalOptions="FillAndExpand">
-                <handlers:BorderLessEntry Text="{Binding Password}}" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" TextColor="Black" PlaceholderColor="#e95263"    IsPassword="True" IsSpellCheckEnabled="True" />
+                <handlers:BorderLessEntry Text="{Binding Password}" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" TextColor="Black" PlaceholderColor="#e95263"    IsPassword="True" IsSpellCheckEnabled="True" />
             </Frame>
         </StackLayout>
 

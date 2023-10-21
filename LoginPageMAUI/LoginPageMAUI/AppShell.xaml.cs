@@ -1,5 +1,6 @@
 ﻿using LoginPageMAUI.Views.Dashboard;
 using LoginPageMAUI.ViewModels;
+using LoginPageMAUI.Models.SD;
 
 namespace LoginPageMAUI
 {
@@ -9,7 +10,12 @@ namespace LoginPageMAUI
         {
             InitializeComponent();
             this.BindingContext = new AppShellViewModel();
-            Routing.RegisterRoute(nameof(DashboardPage), typeof(DashboardPage));
+
+
+           
+            //Routing.RegisterRoute(nameof(DashboardPage), typeof(DashboardPage));
         }
+
+      
     }
 }

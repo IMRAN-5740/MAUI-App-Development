@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:dashboardViewModel="clr-namespace:LoginPageMAUI.ViewModels.Dashboard"
              x:Class="LoginPageMAUI.Views.Dashboard.DashboardPage"
-             Title="DashboardPage"
+             Title="Dashboard"
              >
     <VerticalStackLayout>
         <Label 
