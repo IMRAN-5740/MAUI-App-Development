@@ -32,8 +32,9 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-
+		
+			<MauiIcon Include="Resources\AppIcon\readline.png"  BaseSize="318,390"  />
+		
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
@@ -49,6 +50,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\AppIcon\imran.png" />
 	  <None Remove="Resources\Images\about.svg" />
 	  <None Remove="Resources\Images\about_us.png" />
 	  <None Remove="Resources\Images\company_logo.jpg" />
@@ -61,6 +63,10 @@
 	  <None Remove="Resources\Images\phone_solid.svg" />
 	  <None Remove="Resources\Images\readline.jpg" />
 	  <None Remove="Resources\Images\user_solid.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\AppIcon\imran.png" />
 	</ItemGroup>
 
 	<ItemGroup>
