@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CRUDOperationDemo.API.props" />
+</Project>
