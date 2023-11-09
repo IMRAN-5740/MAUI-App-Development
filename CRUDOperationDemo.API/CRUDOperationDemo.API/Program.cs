@@ -1,7 +1,9 @@
 using CRUDOperationDemo.API.Controllers;
 using CRUDOperationDemo.API.Data;
+using CRUDOperationDemo.API.Models;
 using CRUDOperationDemo.API.Services;
 using CRUDOperationDemo.API.Services.Base;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +19,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddTransient<IStudentService,StudentService>();
+builder.Services.AddIdentity<Users,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddTransient<StudentController>();
 
 

@@ -1,6 +1,6 @@
 ﻿using CRUDOperationDemo.API.Services;
 using CRUDOperationDemo.API.Services.Base;
-using CRUDOperationDemo.API.ViewModels;
+using CRUDOperationDemo.API.ViewModels.StudentViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

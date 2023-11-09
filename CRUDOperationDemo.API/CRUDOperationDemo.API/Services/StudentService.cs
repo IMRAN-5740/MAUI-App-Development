@@ -2,7 +2,7 @@
 using CRUDOperationDemo.API.Models;
 using CRUDOperationDemo.API.Responces;
 using CRUDOperationDemo.API.Services.Base;
-using CRUDOperationDemo.API.ViewModels;
+using CRUDOperationDemo.API.ViewModels.StudentViewModel;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
