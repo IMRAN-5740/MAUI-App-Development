@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "eQvtkc6/Pqs/QJ0Cbf5aXv0vosLZfoghsJ9LWF7bebT7QXyMPRFYElYiekousZT69a9BkQv4dB6xy4wZLyB4Qg==",
+  "dgSpecHash": "KqPSdDTKQk732QPFBum24Pw5rL2d5RREkCQrHWTTRgtUqdOa959PCV5HqMcwjhK2YIYIQ+SWPNTufrIZOU5kgw==",
   "success": true,
   "projectFilePath": "E:\\.Net MAUI Development\\CRUDOperationDemo.API\\CRUDOperationDemo.API\\CRUDOperationDemo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\imran\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.13\\microsoft.aspnetcore.authentication.jwtbearer.7.0.13.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.13\\microsoft.aspnetcore.cryptography.internal.7.0.13.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.13\\microsoft.aspnetcore.cryptography.keyderivation.7.0.13.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.13\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.13.nupkg.sha512",

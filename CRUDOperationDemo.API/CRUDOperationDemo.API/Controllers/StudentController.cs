@@ -1,6 +1,7 @@
 ﻿using CRUDOperationDemo.API.Services;
 using CRUDOperationDemo.API.Services.Base;
 using CRUDOperationDemo.API.ViewModels.StudentViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace CRUDOperationDemo.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class StudentController : ControllerBase
     {
         private readonly IStudentService _studentService;
@@ -16,6 +18,7 @@ namespace CRUDOperationDemo.API.Controllers
             _studentService = studentService;
         }
         [HttpGet("GetAllStudent")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetAllStudent()
         {
             try

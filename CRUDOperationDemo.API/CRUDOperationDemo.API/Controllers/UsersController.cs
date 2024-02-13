@@ -1,26 +1,74 @@
 ﻿using Azure;
 using CRUDOperationDemo.API.Models;
 using CRUDOperationDemo.API.ViewModels.UsersViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace CRUDOperationDemo.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly UserManager<Users> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IConfiguration _configuration;
 
-        public UsersController( UserManager<Users> userManager,RoleManager<IdentityRole> roleManager)
+        public UsersController( UserManager<Users> userManager,RoleManager<IdentityRole> roleManager,IConfiguration configuration)
         {
             _userManager = userManager;
             _roleManager = roleManager;
+            _configuration = configuration;
         }
 
 
+        [AllowAnonymous]
+       [HttpPost("AuthenticateUser")]
+        public async Task<IActionResult> AuthenticateUser(AuthenticateUser authenticateUser )
+        {
+            
+            var user=await  _userManager.FindByEmailAsync(authenticateUser.UserName);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+            bool isValidUser=await _userManager.CheckPasswordAsync(user,authenticateUser.Password);
+
+            if(isValidUser)
+            {
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var keyDetail = Encoding.UTF8.GetBytes(_configuration["JWT:Key"]);
+
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, user.Id),
+                   new Claim(ClaimTypes.Name,user.Email),
+
+                };
+                var tokenDescriptor = new SecurityTokenDescriptor
+                {
+                    Audience = _configuration["JWT:Audience"],
+                    Issuer = _configuration["JWT:Issuer"],
+                    Expires = DateTime.UtcNow.AddDays(5),
+                    Subject = new ClaimsIdentity(claims),
+                    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyDetail), SecurityAlgorithms.HmacSha256Signature),
+                    
+                };
+                var token=tokenHandler.CreateToken(tokenDescriptor);
+                return Ok(tokenHandler.WriteToken(token));
+            }
+            else
+            {
+                return Unauthorized();
+            }
+        }
 
 
         [HttpPost("RegisterUser")]

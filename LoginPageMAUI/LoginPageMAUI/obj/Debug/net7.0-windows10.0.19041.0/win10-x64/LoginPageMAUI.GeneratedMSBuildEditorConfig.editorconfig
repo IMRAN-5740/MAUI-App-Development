@@ -9,6 +9,8 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoginPageMAUI
 build_property.ProjectDir = E:\.Net MAUI Development\LoginPageMAUI\LoginPageMAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 
 [E:/.Net MAUI Development/LoginPageMAUI/LoginPageMAUI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

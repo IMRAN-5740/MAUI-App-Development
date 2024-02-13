@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoginPageMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ca7ea3ed6181761aee8c2e630e62f9f6a7272107")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoginPageMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoginPageMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

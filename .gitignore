@@ -1,0 +1,43 @@
+# Build artifacts
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Visual Studio temporary files
+.vs/
+
+# Ignore test results and reports
+**/TestResults/
+**/TestMetadata/
+**/coverage.xml
+
+# Ignore third-party dependencies
+node_modules/
+packages/
+
+# Ignore platform-specific deployment files
+**/platforms/
+**/AndroidApp/bin/
+**/iOSApp/bin/
+
+# Additional files you want to ignore
+*.*proj.user
+*.nupkg
+
+# Optional: Ignore generated code, but be cautious
+# **/Generated/
+
+# Lines commented out are typically ignored, but use with caution:
+# # Ignore NuGet packages (consider using packages.config instead)
+# packages-lock.json
+
+# # Ignore configuration files (may cause issues in collaboration)
+# appsettings.json
+# web.config

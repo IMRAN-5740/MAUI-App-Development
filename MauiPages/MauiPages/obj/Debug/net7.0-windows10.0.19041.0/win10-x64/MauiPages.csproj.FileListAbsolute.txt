@@ -217,7 +217,6 @@ E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.
 E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1023.36312.dll
 E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -327,3 +326,5 @@ E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.
 E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faculty1.scale-100.png
 E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
 E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\others.scale-100.png
+E:\.Net MAUI Development\MauiPages\MauiPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1423.51910.dll
+E:\.Net MAUI Development\MauiPages\MauiPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiPages.sourcelink.json
